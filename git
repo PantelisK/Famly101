@@ -1,0 +1,209 @@
+#helpful
+git log
+git status
+
+#new branch
+git checkout -b BRANCHNAME
+git pull
+#OR
+git cherry-pick COMMITID
+
+
+#show the commit differences with master
+git diff --merge-base master
+
+#show the diff from the last commit HEAD
+git show HEAD
+
+#new branch local keda_deprecate2 to remote repo
+git push origin keda_deprecate2
+
+#so origin repo shows keda_deprecate2 same as local
+git log origin/master
+commit 771a5c9fea8d300e5a8d6f22575720f7be17091b (HEAD -> keda_deprecate2, origin/keda_deprecate2)
+Author: Pantelis Kostaris <pk@famly.co>
+Date:   Fri Nov 10 15:16:56 2023 +0100
+
+    rename Name to name
+
+#if we go back to master
+git checkout master
+Switched to branch 'master'
+Your branch and 'origin/master' have diverged,
+and have 5 and 215 different commits each, respectively.
+#the logs show  we are on a different not updated master
+commit 1957885f73b462f1980c0534e26f6c19eccae366 (HEAD -> master, origin/famlyfeed_staging_de, famlyfeed_staging_de)
+Author: Pantelis Kostaris <pk@famly.co>
+Date:   Wed Nov 8 15:17:47 2023 +0100
+
+    new kustomization file
+
+#when origin is on
+git log origin/master
+commit e696c0e7fb804c5f7904d2b8f5c7bf6d0c196028 (origin/master, origin/HEAD)
+Merge: a17c909c22e e845b849f8c
+Author: mergify[bot] <37929162+mergify[bot]@users.noreply.github.com>
+Date:   Fri Nov 10 12:56:36 2023 +0000
+
+#so we need to reset to the origin
+git reset --hard origin/master
+HEAD is now at e696c0e7fb8 Merge pull request #23637 [STAT-2171][KinderConnect] Fix minutes being added to non overlapping leaves ⏳
+
+#log is fine
+git log
+commit e696c0e7fb804c5f7904d2b8f5c7bf6d0c196028 (HEAD -> master, origin/master, origin/HEAD)
+Merge: a17c909c22e e845b849f8c
+Author: mergify[bot] <37929162+mergify[bot]@users.noreply.github.com>
+Date:   Fri Nov 10 12:56:36 2023 +0000
+
+
+#moving back to our branch
+git checkout keda_deprecate2
+Switched to branch 'keda_deprecate2'
+
+#we got the code we pushed before
+git log
+commit 771a5c9fea8d300e5a8d6f22575720f7be17091b (HEAD -> keda_deprecate2, origin/keda_deprecate2)
+Author: Pantelis Kostaris <pk@famly.co>
+Date:   Fri Nov 10 15:16:56 2023 +0100
+
+    rename Name to name
+
+
+
+# remove bad commits from master
+git rebase -i master
+CONFLICT (modify/delete): deploymentv2/famlyfeed/staging/famly_de/auto-scaling.patch.yaml deleted in HEAD and modified in cf099d55540 (keda_deprecate_MetricName).  
+Version cf099d55540 (keda_deprecate_MetricName) of deploymentv2/famlyfeed/staging/famly_de/auto-scaling.patch.yaml left in tree.
+
+git rebase --continue
+
+#we see an untracked file that has been changed we need to either track it with add or remove it
+git status
+interactive rebase in progress; onto e696c0e7fb8
+Last commands done (5 commands done):
+   drop 72a70814e70 new kustomization file
+   pick cf099d55540 keda_deprecate_MetricName
+  (see more in file .git/rebase-merge/done)
+Next command to do (1 remaining command):
+   pick 10b1264d0fd rename Name to name
+  (use "git rebase --edit-todo" to view and edit)
+You are currently rebasing branch 'keda_deprecate2' on 'e696c0e7fb8'.
+  (fix conflicts and then run "git rebase --continue")
+  (use "git rebase --skip" to skip this patch)
+  (use "git rebase --abort" to check out the original branch)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   deployment/famly_co/core.yaml
+        modified:   deploymentv2/core-worker-low-prio/prod/famly_de/keda-scaler.patch.yaml
+        modified:   deploymentv2/core-worker-low-prio/staging/famly_de/keda-scaler.patch.yaml
+        modified:   deploymentv2/core-worker/prod/famly_de/keda-scaler.patch.yaml
+        modified:   deploymentv2/core-worker/staging/famly_de/keda-scaler.patch.yaml
+        modified:   deploymentv2/core/prod/brighthorizons/scaledobject-core.yaml
+        modified:   deploymentv2/core/prod/famly_co/scaledobject-core.yaml
+        modified:   deploymentv2/core/prod/famly_de/scaledobject-core.yaml
+        modified:   deploymentv2/famlynotify/prod/famly_de/auto-scaling.patch.yaml
+        modified:   deploymentv2/famlywebhooks-daemon/prod/famly_de/auto-scaling.patch.yaml
+        modified:   deploymentv2/famlywebhooks-daemon/staging/famly_de/auto-scaling.patch.yaml
+
+Unmerged paths:
+  (use "git restore --staged <file>..." to unstage)
+  (use "git add/rm <file>..." as appropriate to mark resolution)
+        deleted by us:   deploymentv2/famlyfeed/staging/famly_de/auto-scaling.patch.yaml
+
+#we decide to remove
+git rm deploymentv2/famlyfeed/staging/famly_de/auto-scaling.patch.yaml 
+#status is fine now
+
+git status
+interactive rebase in progress; onto e696c0e7fb8
+Last commands done (5 commands done):
+   drop 72a70814e70 new kustomization file
+   pick cf099d55540 keda_deprecate_MetricName
+  (see more in file .git/rebase-merge/done)
+Next command to do (1 remaining command):
+   pick 10b1264d0fd rename Name to name
+  (use "git rebase --edit-todo" to view and edit)
+You are currently rebasing branch 'keda_deprecate2' on 'e696c0e7fb8'.
+  (all conflicts fixed: run "git rebase --continue")
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   deployment/famly_co/core.yaml
+        modified:   deploymentv2/core-worker-low-prio/prod/famly_de/keda-scaler.patch.yaml
+        modified:   deploymentv2/core-worker-low-prio/staging/famly_de/keda-scaler.patch.yaml
+        modified:   deploymentv2/core-worker/prod/famly_de/keda-scaler.patch.yaml
+        modified:   deploymentv2/core-worker/staging/famly_de/keda-scaler.patch.yaml
+        modified:   deploymentv2/core/prod/brighthorizons/scaledobject-core.yaml
+        modified:   deploymentv2/core/prod/famly_co/scaledobject-core.yaml
+        modified:   deploymentv2/core/prod/famly_de/scaledobject-core.yaml
+        modified:   deploymentv2/famlynotify/prod/famly_de/auto-scaling.patch.yaml
+        modified:   deploymentv2/famlywebhooks-daemon/prod/famly_de/auto-scaling.patch.yaml
+        modified:   deploymentv2/famlywebhooks-daemon/staging/famly_de/auto-scaling.patch.yaml
+#we finalise rebase
+git rebase --continue 
+[detached HEAD 93f79bfbba6] keda_deprecate_MetricName
+ 11 files changed, 16 insertions(+), 16 deletions(-)
+Successfully rebased and updated refs/heads/keda_deprecate2.      
+#log
+git log
+commit ca745a4be2d3c168ab29a15e17932ecbffcef783 (HEAD -> keda_deprecate2)
+Author: Pantelis Kostaris <pk@famly.co>
+Date:   Fri Nov 10 15:16:56 2023 +0100
+
+    rename Name to name
+
+commit 93f79bfbba6cb09bdf0be7b35e5da04cbcd36ff3
+Author: Pantelis Kostaris <pk@famly.co>
+Date:   Fri Nov 10 14:30:42 2023 +0100
+
+    keda_deprecate_MetricName
+
+commit e696c0e7fb804c5f7904d2b8f5c7bf6d0c196028 (origin/master, origin/HEAD, master)
+Merge: a17c909c22e e845b849f8c
+
+#
+git push -f
+
+#log Why there is no master here
+git log origin/keda_deprecate2
+commit 771a5c9fea8d300e5a8d6f22575720f7be17091b (origin/keda_deprecate2)
+Author: Pantelis Kostaris <pk@famly.co>
+Date:   Fri Nov 10 15:16:56 2023 +0100
+
+    rename Name to name
+
+commit 64d6c5d83c9ce869bd3fb2fdab163d7b26fd0d64
+Author: Pantelis Kostaris <pk@famly.co>
+Date:   Fri Nov 10 14:30:42 2023 +0100
+
+    keda_deprecate_MetricName
+
+commit 1957885f73b462f1980c0534e26f6c19eccae366 (origin/famlyfeed_staging_de, famlyfeed_staging_de)
+Author: Pantelis Kostaris <pk@famly.co>
+Date:   Wed Nov 8 15:17:47 2023 +0100
+
+    new kustomization file
+
+
+
+
+
+
+
+#pull what the repo has for your branch
+git pull origin famlyfeed_staging_de
+#and push your local to the branch
+git add deploymentv2/famlyfeed/staging/famly_de/kustomization.yaml
+git status
+git commit -m "new kustomization file"
+git push origin famlyfeed_staging_de
+#force a retest
+git checkout branch
+git pull origin master
+git checkout master
+git merge branch
+#for a fuckup you can reset to the commit you liked
+git reset COMMITID
+
