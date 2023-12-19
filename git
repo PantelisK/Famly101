@@ -8,6 +8,9 @@ git pull
 #OR
 git cherry-pick COMMITID
 
+#delete branch
+git branch -d BRANCHNAME
+git push -d origin BRANCHNAME
 
 #show the commit differences with master
 git diff --merge-base master
@@ -206,4 +209,48 @@ git checkout master
 git merge branch
 #for a fuckup you can reset to the commit you liked
 git reset COMMITID
+#discard all uncommited changes
+git checkout -- .
+#stash changes and then use them
+git stash
+git stash pop
+#use stash to move changes to a new branch
+git stash branch <new-branch>
 
+#update your branch with master
+git checkout master
+git pull origin master
+git branch
+git checkout BRANCH
+git merge master
+git status -s
+#OR
+git checkout BRANCH
+git fetch origin
+git rebase origin/master #git rebase -i master
+git push origin BRANCH
+#OR
+git checkout BRANCH
+git pull --rebase
+
+git push origin BRANCH
+
+#amend if you want to include commit to previous commit
+git add .
+git commit --amend --no-edit
+git push origin BRANCH --force
+#To rename the current branch:
+git branch -m <newname>
+#To rename a branch while pointed to any branch:
+git branch -m <oldname> <newname>
+#-m is short for --move.
+#To push the local branch and reset the upstream branch:
+git push origin -u <newname>
+#To delete the remote branch:
+git push origin --delete <oldname>
+#to discard not staged changes
+git checkout -- .
+
+#to discard untracked files
+git clean -n #dryrun
+git clean -f #delete
