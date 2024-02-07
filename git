@@ -207,7 +207,7 @@ git checkout branch
 git pull origin master
 git checkout master
 git merge branch
-#for a fuckup you can reset to the commit you liked
+#for a fuckup you can reset to the commit you liked. Deploy-global
 git reset COMMITID
 #discard all uncommited changes
 git checkout -- .
@@ -254,3 +254,6 @@ git checkout -- .
 #to discard untracked files
 git clean -n #dryrun
 git clean -f #delete
+
+#pick a file from another branch
+git checkout master -- /file/
