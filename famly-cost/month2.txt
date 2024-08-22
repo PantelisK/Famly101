@@ -1,65 +1,57 @@
 Relational Database Service
-USD 16,899.62
+USD 15,999.66
 
 EU (Frankfurt)
-USD 16,899.57
+USD 15,999.61
 
 Amazon Aurora Storage and I/O
-USD 21.53
+USD 18.53
 $0.119 per GB-month of consumed storage (Aurora)
-USD 1.28
+USD 1.25
 $0.22 per 1 million I/O requests (Aurora)
-USD 20.25
+USD 17.28
 
 Amazon Relational Database Service Backup Storage
-USD 503.24
+USD 494.60
 $0.103 per additional GB-month of backup storage exceeding free allocation
 USD 1.04
 $0.103 per additional GB-month of backup storage exceeding free allocation running MariaDB
-USD 126.72
+USD 116.96
 $0.103 per additional GB-month of backup storage exceeding free allocation running MySQL
-USD 367.03
+USD 368.13
 $0.103 per additional GB-month of backup storage exceeding free allocation running PostgreSQL
-USD 8.45
+USD 8.47
 
 Amazon Relational Database Service for Aurora MySQL
-USD 382.24
+USD 369.97
 $ 0.17 per RDS db.t4g.large Single-AZ instance hour (or partial hour) running Aurora MySQL
-USD 379.44
+USD 367.20
 $USD 0.023 per GB-month of backup storage exceeding free allocation for Aurora MySQL
-USD 2.80
+USD 2.77
 
 Amazon Relational Database Service for MariaDB
-USD 332.57
+USD 321.84
 $ 0.149 per RDS db.t4g.large Single-AZ instance hour (or partial hour) running MariaDB
-USD 110.86
+USD 107.28
 $ 0.298 per RDS db.t4g.xlarge Single-AZ instance hour (or partial hour) running MariaDB
-USD 221.71
+USD 214.56
 
 Amazon Relational Database Service for MySQL Community Edition
-USD 4,293.61
+USD 3,881.81
 $ 0.074 per RDS db.t4g.medium Single-AZ instance hour (or partial hour) running MySQL
-USD 55.06
+USD 53.28
 $ 0.582 per RDS db.r7g.xlarge Single-AZ instance hour (or partial hour) running MySQL
-USD 866.02
-$ 1.444 per RDS db.m6g.4xlarge Single-AZ instance hour (or partial hour) running MySQL
-USD 256.57
-$ 2.488 per RDS db.r6gd.4xlarge Single-AZ instance hour (or partial hour) running MySQL
-USD 15.53
+USD 838.08
 $ 4.153 per RDS db.r6g.4xlarge Multi-AZ instance hour (or partial hour) running MySQL
-USD 3,089.83
-$USD 0.020 per db.t3.micro Single-AZ instance hour (or partial hour) running MySQL
-USD 0.08
-$USD 0.040 per db.t3.micro Multi-AZ instance hour (or partial hour) running MySQL
-USD 0.11
-$USD 0.080 per db.t3.medium Single-AZ instance hour (or partial hour) running MySQL
-USD 3.30
-$USD 0.160 per db.t3.medium Multi-AZ instance hour (or partial hour) running MySQL
-USD 7.11
+USD 2,990.16
+$ 4.153 per RDS db.r6g.8xlarge Single-AZ instance hour (or partial hour) running MySQL
+USD 0.29
 
 Amazon Relational Database Service for MySQL Community Edition Reserved Instances
-USD 6,705.37
+USD 6,489.06
 MySQL, db.r6g.8xl reserved instance applied, db.r6g.8xl instance used
+USD 0.00
+MySQL, db.r6g.8xl reserved instance applied, db.r6g.xl instance used
 USD 0.00
 MySQL, db.m6g.xl reserved instance applied, db.m6g.xl instance used
 USD 0.00
@@ -68,41 +60,37 @@ USD 0.00
 MySQL, db.m6g.xl reserved instance applied, db.m6g.xl instance used
 USD 0.00
 $USD 2.7466 hourly fee per MySQL, db.r6g.8xl instance
-USD 6,130.41
+USD 5,932.65
 $USD 0.5152 hourly fee per MySQL, db.m6g.xl instance
-USD 383.31
+USD 370.94
 $USD 0.2576 hourly fee per MySQL, db.m6g.xl instance
-USD 191.65
+USD 185.47
 
 Amazon Relational Database Service for PostgreSQL
-USD 77.74
+USD 75.46
 $ 0.074 per RDS db.t4g.small Multi-AZ instance hour (or partial hour) running PostgreSQL
-USD 55.06
+USD 53.28
 $0.0754 per vCPU-month for each additional month of retention
 USD 3.47
 $1.7927 per vCPU-month for one month retention
 USD 3.59
 $USD 0.021 per db.t3.micro Single-AZ instance hour (or partial hour) running PostgreSQL
-USD 15.62
+USD 15.12
 
 Amazon Relational Database Service Provisioned Storage
-USD 4,583.27
+USD 4,348.34
 $0.024 per IOPS-month of provisioned GP3 IOPS running MySQL
-USD 1,281.87
-$0.137 per GB-month of provisioned gp2 storage running MySQL
-USD 0.75
+USD 1,152.00
 $0.137 per GB-month of provisioned gp2 storage running PostgreSQL
 USD 0.69
 $0.137 per GB-month of provisioned GP3 storage running MariaDB
-USD 72.61
+USD 71.75
 $0.137 per GB-month of provisioned GP3 storage running MySQL
-USD 2,277.24
-$0.273 per GB-month of provisioned gp2 storage for Multi-AZ deployments running MySQL
-USD 1.55
+USD 2,175.88
 $0.273 per GB-month of provisioned gp2 storage for Multi-AZ deployments running PostgreSQL
 USD 5.46
 $0.274 per GB-month of provisioned GP3 storage for Multi-AZ deployments running MySQL
-USD 943.10
+USD 942.56
 
 EU (Ireland)
 USD 0.05
@@ -113,95 +101,95 @@ $0.095 per additional GB-month of backup storage exceeding free allocation
 USD 0.05
 
 Elastic Compute Cloud
-USD 9,810.65
+USD 9,599.96
 
 EU (Frankfurt)
-USD 9,808.09
+USD 9,597.40
 
 Amazon Elastic Compute Cloud NatGateway
-USD 2,894.08
+USD 3,027.94
 $0.052 per GB Data Processed by NAT Gateways
-USD 1,929.58
+USD 2,054.50
 $0.052 per NAT Gateway Hour
-USD 964.50
+USD 973.44
 
 Amazon Elastic Compute Cloud running Linux/UNIX
-USD 1,559.13
+USD 1,385.88
 $0.0067 per On Demand Linux t2.nano Instance Hour
-USD 14.94
+USD 14.47
 t2.nano Linux instance usage covered by Compute Savings Plans
-(USD 10.23)
+(USD 10.27)
 $0.0096 per On Demand Linux t4g.micro Instance Hour
-USD 7.13
+USD 6.91
 t4g.micro Linux instance usage covered by Compute Savings Plans
-(USD 4.65)
+(USD 4.78)
 $0.0108 per On Demand Linux t3a.micro Instance Hour
-USD 16.07
+USD 15.56
 t3a.micro Linux instance usage covered by Compute Savings Plans
-(USD 10.47)
+(USD 10.76)
 $0.012 per On Demand Linux t3.micro Instance Hour
-USD 17.85
+USD 17.63
 t3.micro Linux instance usage covered by Compute Savings Plans
-(USD 11.64)
+(USD 12.30)
 $0.0134 per On Demand Linux t2.micro Instance Hour
-USD 83.75
+USD 92.17
 t2.micro Linux instance usage covered by Compute Savings Plans
-(USD 54.86)
+(USD 64.00)
 $0.0216 per On Demand Linux t3a.small Instance Hour
-USD 16.05
+USD 15.56
 t3a.small Linux instance usage covered by Compute Savings Plans
-(USD 10.91)
+(USD 11.04)
 $0.024 per On Demand Linux t3.small Instance Hour
-USD 17.85
+USD 17.27
 t3.small Linux instance usage covered by Compute Savings Plans
-(USD 12.19)
+(USD 12.25)
 $0.0268 per On Demand Linux t2.small Instance Hour
-USD 44.67
+USD 57.92
 t2.small Linux instance usage covered by Compute Savings Plans
-(USD 29.32)
+(USD 40.12)
 $0.0432 per On Demand Linux t3a.medium Instance Hour
-USD 153.53
+USD 155.48
 t3a.medium Linux instance usage covered by Compute Savings Plans
-(USD 103.89)
-$0.0536 per On Demand Linux t2.medium Instance Hour
-USD 30.45
-t2.medium Linux instance usage covered by Compute Savings Plans
-(USD 20.65)
+(USD 110.13)
 $0.087 per On Demand Linux c5a.large Instance Hour
-USD 390.35
+USD 375.32
 c5a.large Linux instance usage covered by Compute Savings Plans
-(USD 268.49)
+(USD 269.13)
 $0.096 per On Demand Linux t3.large Instance Hour
-USD 71.42
+USD 69.12
 t3.large Linux instance usage covered by Compute Savings Plans
-(USD 47.10)
+(USD 48.00)
 $0.115 per On Demand Linux m5.large Instance Hour
-USD 1.64
+USD 1.74
 m5.large Linux instance usage covered by Compute Savings Plans
-(USD 0.44)
+(USD 0.58)
 $0.1728 per On Demand Linux t3a.xlarge Instance Hour
-USD 378.14
+USD 294.01
 t3a.xlarge Linux instance usage covered by Compute Savings Plans
-(USD 116.96)
+(USD 101.13)
 $0.192 per On Demand Linux t3.xlarge Instance Hour
-USD 142.82
+USD 138.14
 t3.xlarge Linux instance usage covered by Compute Savings Plans
-(USD 94.73)
-$0.3456 per On Demand Linux t3a.2xlarge Instance Hour
-USD 5.58
-t3a.2xlarge Linux instance usage covered by Compute Savings Plans
-(USD 0.40)
+(USD 96.12)
 $0.384 per On Demand Linux t3.2xlarge Instance Hour
-USD 285.70
+USD 276.10
 t3.2xlarge Linux instance usage covered by Compute Savings Plans
-(USD 188.80)
+(USD 191.73)
+$0.54 per On Demand Linux i3en.xlarge Instance Hour
+USD 77.33
+i3en.xlarge Linux instance usage covered by Compute Savings Plans
+(USD 77.33)
 $0.828 per On Demand Linux m6a.4xlarge Instance Hour
-USD 3,018.93
+USD 2,474.54
 m6a.4xlarge Linux instance usage covered by Compute Savings Plans
-(USD 2,152.01)
+(USD 1,653.72)
+$1.08 per On Demand Linux i3en.2xlarge Instance Hour
+USD 0.11
+i3en.2xlarge Linux instance usage covered by Compute Savings Plans
+(USD 0.11)
 
 Amazon Elastic Compute Cloud running Linux/UNIX Reserved Instances
-USD 3,871.28
+USD 3,746.40
 Linux/UNIX (Amazon VPC), m6a.2xlarge reserved instance applied, m6a.2xlarge instance used
 USD 0.00
 Linux/UNIX (Amazon VPC), m6a.2xlarge reserved instance applied, m6a.4xlarge instance used
@@ -209,23 +197,23 @@ USD 0.00
 Linux/UNIX (Amazon VPC), m6a.2xlarge reserved instance applied, m6a.xlarge instance used
 USD 0.00
 $USD 0.27386 hourly fee per Linux/UNIX (Amazon VPC), m6a.2xlarge instance
-USD 3,871.28
+USD 3,746.40
 
 Amazon Elastic Compute Cloud running Linux/UNIX Spot Instances
-USD 130.65
+USD 115.98
 t3.medium Linux/UNIX Spot Instance-hour in EU (Frankfurt) in VPC Zone #53
-USD 10.80
+USD 11.40
 t3.medium Linux/UNIX Spot Instance-hour in EU (Frankfurt) in VPC Zone #54
-USD 10.74
+USD 10.02
 t3a.medium Linux/UNIX Spot Instance-hour in EU (Frankfurt) in VPC Zone #53
-USD 41.38
+USD 33.20
 t3a.medium Linux/UNIX Spot Instance-hour in EU (Frankfurt) in VPC Zone #54
-USD 67.73
+USD 61.36
 
 Amazon Elastic Compute Cloud T3ACPUCredits
-USD 1.72
+USD 2.02
 $0.05 per vCPU-Hour of T3A CPU Credits
-USD 1.72
+USD 2.02
 
 Amazon Elastic Compute Cloud T3CPUCredits
 USD 0.00
@@ -233,21 +221,23 @@ $0.05 per vCPU-Hour of T3 CPU Credits
 USD 0.00
 
 EBS
-USD 1,351.23
-$0.00 for 347 Mbps per t3a.medium instance-hour (or partial hour)
+USD 1,319.18
+$0.00 for 1700 Mbps per i3en.2xlarge instance-hour (or partial hour)
 USD 0.00
-$0.00 for 695 Mbps per t3a.2xlarge instance-hour (or partial hour)
+$0.00 for 347 Mbps per t3a.medium instance-hour (or partial hour)
 USD 0.00
 $0.00 for 695 Mbps per t3a.xlarge instance-hour (or partial hour)
 USD 0.00
+$0.00 for 850 Mbps per i3en.xlarge instance-hour (or partial hour)
+USD 0.00
 $0.0476 per provisioned MiBps-month of gp3 - EU (Frankfurt)
-USD 16.89
+USD 16.70
 $0.054 per GB-Month of snapshot data stored - EU (Frankfurt)
-USD 158.49
+USD 159.51
 $0.0952 per GB-month of General Purpose (gp3) provisioned storage - EU (Frankfurt)
-USD 604.05
+USD 570.94
 $0.119 per GB-month of General Purpose SSD (gp2) provisioned storage - EU (Frankfurt)
-USD 571.80
+USD 572.03
 
 US East (N. Virginia)
 USD 2.56
@@ -255,9 +245,9 @@ USD 2.56
 Amazon Elastic Compute Cloud running Linux/UNIX
 USD 0.00
 $0.0416 per On Demand Linux t3.medium Instance Hour
-USD 30.95
+USD 29.91
 t3.medium Linux instance usage covered by Compute Savings Plans
-(USD 30.95)
+(USD 29.91)
 
 EBS
 USD 2.56
@@ -265,10 +255,10 @@ $0.08 per GB-month of General Purpose (gp3) provisioned storage - US East (N. Vi
 USD 2.56
 
 Data Transfer
-USD 9,766.98
+USD 9,109.28
 
 EU (Frankfurt)
-USD 9,752.59
+USD 9,097.36
 
 AWS Data Transfer EUC1-AFS1-AWS-In-Bytes
 USD 0.00
@@ -278,16 +268,6 @@ USD 0.00
 AWS Data Transfer EUC1-AFS1-AWS-Out-Bytes
 USD 0.00
 $USD 0.02 per GB for EUN1-AWS-Out-Bytes in Africa (Cape Town)
-USD 0.00
-
-AWS Data Transfer EUC1-AKL1-AWS-In-Bytes
-USD 0.00
-$0.00 per GB - EU (Germany) data transfer from New Zealand (Auckland)
-USD 0.00
-
-AWS Data Transfer EUC1-AKL1-AWS-Out-Bytes
-USD 0.00
-$0.02 per GB - EU (Germany) data transfer to New Zealand (Auckland)
 USD 0.00
 
 AWS Data Transfer EUC1-APE1-AWS-In-Bytes
@@ -328,6 +308,16 @@ USD 0.00
 AWS Data Transfer EUC1-APN3-AWS-Out-Bytes
 USD 0.00
 $0.02 per GB - EU (Germany) data transfer to Asia Pacific (Osaka)
+USD 0.00
+
+AWS Data Transfer EUC1-APNE1WL1NRT1-AWS-In-Bytes
+USD 0.00
+$0.00 per GB - EU (Germany) data transfer from Asia Pacific (KDDI) - Tokyo
+USD 0.00
+
+AWS Data Transfer EUC1-APNE1WL1NRT1-AWS-Out-Bytes
+USD 0.00
+$0.02 per GB - EU (Germany) data transfer to Asia Pacific (KDDI) - Tokyo
 USD 0.00
 
 AWS Data Transfer EUC1-APS1-AWS-In-Bytes
@@ -385,6 +375,11 @@ USD 0.00
 $0.00 per GB - EU (Germany) data transfer from Asia Pacific (Melbourne)
 USD 0.00
 
+AWS Data Transfer EUC1-APS6-AWS-Out-Bytes
+USD 0.00
+$0.02 per GB - EU (Germany) data transfer to Asia Pacific (Melbourne)
+USD 0.00
+
 AWS Data Transfer EUC1-ATL1-AWS-In-Bytes
 USD 0.00
 $0 per GB - EU (Frankfurt) Data Transfer to US East (Atlanta)
@@ -393,16 +388,6 @@ USD 0.00
 AWS Data Transfer EUC1-ATL1-AWS-Out-Bytes
 USD 0.00
 $0.02 per GB - EU (Frankfurt) Data Transfer from US East (Atlanta)
-USD 0.00
-
-AWS Data Transfer EUC1-BKK1-AWS-In-Bytes
-USD 0.00
-$0.00 per GB - EU (Germany) data transfer from Thailand (Bangkok)
-USD 0.00
-
-AWS Data Transfer EUC1-BKK1-AWS-Out-Bytes
-USD 0.00
-$0.02 per GB - EU (Germany) data transfer to Thailand (Bangkok)
 USD 0.00
 
 AWS Data Transfer EUC1-BOS1-AWS-In-Bytes
@@ -423,16 +408,6 @@ USD 0.00
 AWS Data Transfer EUC1-CAN1-AWS-Out-Bytes
 USD 0.00
 $0.02 per GB - EU (Germany) data transfer to Canada (Central)
-USD 0.00
-
-AWS Data Transfer EUC1-CCU1-AWS-In-Bytes
-USD 0.00
-$0.0 per GB - EU (Frankfurt) datatransfer from India (Kolkata)
-USD 0.00
-
-AWS Data Transfer EUC1-CCU1-AWS-Out-Bytes
-USD 0.00
-$0.02 per GB - EU (Frankfurt) datatransfer to India (Kolkata)
 USD 0.00
 
 AWS Data Transfer EUC1-CHI1-AWS-In-Bytes
@@ -465,16 +440,6 @@ USD 0.01
 $0.02 per GB - EU (Frankfurt) datatransfer to Denmark (Copenhagen)
 USD 0.01
 
-AWS Data Transfer EUC1-DEL1-AWS-In-Bytes
-USD 0.00
-$0.00 per GB - EU (Germany) data transfer from India (Delhi)
-USD 0.00
-
-AWS Data Transfer EUC1-DEL1-AWS-Out-Bytes
-USD 0.00
-$0.02 per GB - EU (Germany) data transfer to India (Delhi)
-USD 0.00
-
 AWS Data Transfer EUC1-DEN1-AWS-In-Bytes
 USD 0.00
 $0.00 per GB - EU (Germany) data transfer from US West (Denver)
@@ -501,9 +466,9 @@ $0.00 per GB - EU (Germany) data transfer from EU (Ireland)
 USD 0.00
 
 AWS Data Transfer EUC1-EU-AWS-Out-Bytes
-USD 74.27
+USD 67.81
 $0.02 per GB - EU (Germany) data transfer to EU (Ireland)
-USD 74.27
+USD 67.81
 
 AWS Data Transfer EUC1-EUC2-AWS-In-Bytes
 USD 0.00
@@ -551,9 +516,9 @@ $0.00 per GB - EU (Germany) data transfer from EU (London)
 USD 0.00
 
 AWS Data Transfer EUC1-EUW2-AWS-Out-Bytes
-USD 0.36
+USD 0.31
 $0.02 per GB - EU (Germany) data transfer to EU (London)
-USD 0.36
+USD 0.31
 
 AWS Data Transfer EUC1-EUW3-AWS-In-Bytes
 USD 0.00
@@ -643,16 +608,6 @@ USD 0.00
 AWS Data Transfer EUC1-MCI2-AWS-Out-Bytes
 USD 0.00
 $0.02 per GB - EU (Germany) data transfer to US East
-USD 0.00
-
-AWS Data Transfer EUC1-MCT1-AWS-In-Bytes
-USD 0.00
-$0.0 per GB - EU (Frankfurt) datatransfer from Oman (Muscat)
-USD 0.00
-
-AWS Data Transfer EUC1-MCT1-AWS-Out-Bytes
-USD 0.00
-$0.02 per GB - EU (Frankfurt) datatransfer to Oman (Muscat)
 USD 0.00
 
 AWS Data Transfer EUC1-MEC1-AWS-In-Bytes
@@ -790,30 +745,15 @@ USD 0.00
 $0.02 per GB - EU (Frankfurt) Data Transfer from US West (Seattle)
 USD 0.00
 
-AWS Data Transfer EUC1-TPE1-AWS-In-Bytes
-USD 0.00
-$0.00 per GB - EU (Germany) data transfer from Taiwan (Taipei)
-USD 0.00
-
-AWS Data Transfer EUC1-TPE1-AWS-Out-Bytes
-USD 0.00
-$0.02 per GB - EU (Germany) data transfer to Taiwan (Taipei)
-USD 0.00
-
-AWS Data Transfer EUC1-UGW1-AWS-In-Bytes
-USD 0.00
-$0.00 per GB - EU (Germany) data transfer from AWS GovCloud (US)
-USD 0.00
-
 AWS Data Transfer EUC1-USE1-AWS-In-Bytes
 USD 0.00
 $0.00 per GB - EU (Germany) data transfer from US East (Northern Virginia)
 USD 0.00
 
 AWS Data Transfer EUC1-USE1-AWS-Out-Bytes
-USD 2.30
+USD 2.19
 $0.02 per GB - EU (Germany) data transfer to US East (Northern Virginia)
-USD 2.30
+USD 2.19
 
 AWS Data Transfer EUC1-USE2-AWS-In-Bytes
 USD 0.00
@@ -821,9 +761,9 @@ $0.00 per GB - EU (Germany) data transfer from US East (Ohio)
 USD 0.00
 
 AWS Data Transfer EUC1-USE2-AWS-Out-Bytes
-USD 0.01
+USD 0.00
 $0.02 per GB - EU (Germany) data transfer to US East (Ohio)
-USD 0.01
+USD 0.00
 
 AWS Data Transfer EUC1-USW1-AWS-In-Bytes
 USD 0.00
@@ -841,12 +781,12 @@ $0.00 per GB - EU (Germany) data transfer from US West (Oregon)
 USD 0.00
 
 AWS Data Transfer EUC1-USW2-AWS-Out-Bytes
-USD 0.18
+USD 0.14
 $0.02 per GB - EU (Germany) data transfer to US West (Oregon)
-USD 0.18
+USD 0.14
 
 Bandwidth
-USD 9,675.33
+USD 9,026.77
 $0.00 per GB - regional data transfer - in/out/between EC2 Azs or using elastic IPs or ELB
 USD 0.00
 $0.00 per GB - regional data transfer - in/out/between EC2 Azs or using elastic IPs or ELB
@@ -856,9 +796,9 @@ USD 0.00
 $0.000 per GB - regional data transfer under the monthly global free tier
 USD 0.00
 $0.010 per GB - regional data transfer - in/out/between EC2 AZs or using elastic IPs or ELB
-USD 4,542.22
+USD 4,167.59
 $0.070 per GB - next 100 TB / month data transfer out
-USD 729.91
+USD 455.98
 $0.085 per GB - next 40 TB / month data transfer out
 USD 3,481.60
 $0.090 per GB - first 10 TB / month data transfer out beyond the global free tier
@@ -869,7 +809,7 @@ $USD0.0 per GB for EUC1-DataTransfer-AZ-Out-Bytes
 USD 0.00
 
 EU (Ireland)
-USD 5.21
+USD 5.32
 
 AWS Data Transfer EU-EUC1-AWS-Out-Bytes
 USD 0.00
@@ -882,11 +822,11 @@ $0.02 per GB - EU (Ireland) data transfer to EU (Stockholm)
 USD 0.00
 
 Bandwidth
-USD 5.21
+USD 5.32
 $0.000 per GB - data transfer in per month
 USD 0.00
 $0.090 per GB - first 10 TB / month data transfer out beyond the global free tier
-USD 5.21
+USD 5.32
 
 EU (Stockholm)
 USD 0.00
@@ -907,7 +847,7 @@ $USD 0.0 per GB for DataTransfer-In-Bytes in EU (Stockholm)
 USD 0.00
 
 US East (N. Virginia)
-USD 9.18
+USD 6.60
 
 AWS Data Transfer USE1-APN1-AWS-In-Bytes
 USD 0.00
@@ -1080,7 +1020,7 @@ $0.02 per GB - US East (Northern Virginia) data transfer to US West (Oregon)
 USD 0.00
 
 Bandwidth
-USD 9.18
+USD 6.60
 $0.000 per GB - data transfer in per month
 USD 0.00
 $0.000 per GB - data transfer out under the monthly global free tier
@@ -1088,7 +1028,7 @@ USD 0.00
 $0.000 per GB - regional data transfer under the monthly global free tier
 USD 0.00
 $0.090 per GB - first 10 TB / month data transfer out beyond the global free tier
-USD 9.18
+USD 6.60
 
 US West (Oregon)
 USD 0.00
@@ -1109,24 +1049,24 @@ $USD 0.02 per GB for EUN1-AWS-Out-Bytes in EU (Stockholm)
 USD 0.00
 
 OpenSearch Service
-USD 7,914.13
+USD 7,631.80
 
 EU (Frankfurt)
-USD 7,914.13
+USD 7,631.80
 
 Amazon OpenSearch Service ESDomain
-USD 6,584.60
+USD 6,345.16
 $0.161 per GB-month of general purpose provisioned storage - EUC1
 USD 28.98
 $0.202 per r6g.large.search instance hour (or partial hour) - EUC1
-USD 901.73
+USD 872.64
 $0.807 per r6g.2xlarge.search instance hour (or partial hour) - EUC1
-USD 3,602.45
+USD 3,486.24
 $USD 0.1452/GB-month provisioned gp3 storage - EUC1
-USD 2,051.44
+USD 1,957.30
 
 Amazon OpenSearch Service ESDomain Reserved Instances
-USD 1,329.53
+USD 1,286.64
 AmazonOpenSearchService, c6g.large.search reserved instance applied
 USD 0.00
 AmazonOpenSearchService, r6g.xlarge.search reserved instance applied
@@ -1136,49 +1076,49 @@ USD 0.00
 AmazonOpenSearchService, t3.medium.search reserved instance applied
 USD 0.00
 $USD 0.279 hourly fee per AmazonOpenSearchService, r6g.xlarge.search instance
-USD 622.73
+USD 602.64
 $USD 0.089 hourly fee per AmazonOpenSearchService, c6g.large.search instance
-USD 397.30
+USD 384.48
 $USD 0.139 hourly fee per AmazonOpenSearchService, r6g.large.search instance
-USD 206.83
+USD 200.16
 $USD 0.069 hourly fee per AmazonOpenSearchService, t3.medium.search instance
-USD 102.67
+USD 99.36
 
 Simple Storage Service
-USD 7,344.66
+USD 6,589.27
 
 EU (Frankfurt)
-USD 7,341.77
+USD 6,586.62
 
 Amazon Simple Storage Service EUC1-Monitoring-Automation-INT
-USD 618.72
+USD 597.04
 $0.0025 per 1,000 Objects per month in Intelligent-Tiering
-USD 618.72
+USD 597.04
 
 Amazon Simple Storage Service EUC1-Requests-GLACIER-Tier2
-USD 0.07
+USD 1.00
 $0.0043 per 10,000 GET and all other requests from Glacier
-USD 0.07
+USD 1.00
 
 Amazon Simple Storage Service EUC1-Requests-INT-Tier2
-USD 10.07
+USD 13.90
 $0.0043 per 10,000 GET and all other requests to Intelligent-Tiering
-USD 10.07
+USD 13.90
 
 Amazon Simple Storage Service EUC1-Requests-SIA-Tier1
-USD 86.44
+USD 92.40
 $0.01 per 1,000 PUT, COPY, POST or LIST requests to Standard-Infrequent Access
-USD 86.44
+USD 92.40
 
 Amazon Simple Storage Service EUC1-Requests-Tier1
-USD 772.37
+USD 717.61
 $0.0054 per 1,000 PUT, COPY, POST, or LIST requests
-USD 772.37
+USD 717.61
 
 Amazon Simple Storage Service EUC1-Requests-Tier2
-USD 1,530.02
+USD 870.90
 $0.0043 per 10,000 GET and all other requests
-USD 1,530.02
+USD 870.90
 
 Amazon Simple Storage Service EUC1-TagStorage-TagHrs
 USD 0.00
@@ -1186,44 +1126,44 @@ $0.01 per 10,000 tags
 USD 0.00
 
 Amazon Simple Storage Service EUC1-TimedStorage-ByteHrs
-USD 1,110.22
+USD 1,066.12
 $0.0245 per GB - first 50 TB / month of storage used
-USD 1,110.22
+USD 1,066.12
 
 Amazon Simple Storage Service EUC1-TimedStorage-GIR-ByteHrs
-USD 3.51
+USD 3.41
 $0.005 per GB-Month of storage used in Glacier Instant Retrieval
-USD 3.51
+USD 3.41
 
 Amazon Simple Storage Service EUC1-TimedStorage-GlacierByteHrs
-USD 120.92
+USD 114.44
 $0.00405 per GB / month of storage used - Amazon Glacier
-USD 120.92
+USD 114.44
 
 Amazon Simple Storage Service EUC1-TimedStorage-INT-AIA-ByteHrs
-USD 585.90
+USD 570.49
 $0.005 per GB-Month of storage used in Intelligent-Tiering, Archive Instant Access tier
-USD 585.90
+USD 570.49
 
 Amazon Simple Storage Service EUC1-TimedStorage-INT-FA-ByteHrs
-USD 335.39
+USD 311.60
 $0.0245 per GB - first 50 TB / month of storage used in Intelligent-Tiering, Frequent Access Tier
-USD 335.39
+USD 311.60
 
 Amazon Simple Storage Service EUC1-TimedStorage-INT-IA-ByteHrs
-USD 179.97
+USD 167.20
 $0.0135 per GB-Month of storage used in Intelligent-Tiering, Infrequent Access Tier
-USD 179.97
+USD 167.20
 
 Amazon Simple Storage Service EUC1-TimedStorage-SIA-ByteHrs
-USD 1,629.24
+USD 1,573.32
 $0.0135 per GB-Month of storage used in Standard-Infrequent Access
-USD 1,629.24
+USD 1,573.32
 
 Amazon Simple Storage Service EUC1-TimedStorage-SIA-SmObjects
-USD 15.31
+USD 15.02
 $0.0135 per GB-Month of storage used for small objects
-USD 15.31
+USD 15.02
 
 Amazon Simple Storage Service EUC1-TimedStorage-ZIA-ByteHrs
 USD 0.00
@@ -1236,11 +1176,11 @@ $0.0108 per GB-Month of storage used for small objects
 USD 0.00
 
 Amazon Simple Storage Service RestoreObject
-USD 5.73
+USD 19.20
 $0.012 per GB - Standard retrieval fee
-USD 1.90
+USD 7.52
 $0.06 per 1,000 Glacier Requests
-USD 3.83
+USD 11.68
 
 Amazon Simple Storage Service S3-GIRTransition
 USD 0.00
@@ -1248,19 +1188,19 @@ $0.02 per 1,000 transitions to Glacier Instant Retrieval
 USD 0.00
 
 Amazon Simple Storage Service S3-GlacierTransition
-USD 36.56
+USD 160.78
 $0.036 per 1,000 Glacier Requests
-USD 36.56
+USD 160.78
 
 Amazon Simple Storage Service S3-INTTransition
-USD 145.95
+USD 142.14
 $0.01 per 1,000 transitions to Intelligent Tiering
-USD 145.95
+USD 142.14
 
 Amazon Simple Storage Service StorageLens
-USD 155.38
+USD 150.05
 $0.20 per MM objects per monthfor the first 25B objects for Storage Lens to Europe (Frankfurt)
-USD 155.38
+USD 150.05
 
 EU (Ireland)
 USD 0.05
@@ -1284,22 +1224,22 @@ $0.004 per 10,000 GET and all other requests
 USD 0.00
 
 US East (N. Virginia)
-USD 2.84
+USD 2.60
 
 Amazon Simple Storage Service Requests-Tier1
-USD 1.55
+USD 1.39
 $0.005 per 1,000 PUT, COPY, POST, or LIST requests
-USD 1.55
+USD 1.39
 
 Amazon Simple Storage Service Requests-Tier2
-USD 0.38
+USD 0.33
 $0.004 per 10,000 GET and all other requests
-USD 0.38
+USD 0.33
 
 Amazon Simple Storage Service TimedStorage-ByteHrs
-USD 0.91
+USD 0.88
 $0.023 per GB - first 50 TB / month of storage used
-USD 0.91
+USD 0.88
 
 Amazon Simple Storage Service TimedStorage-GlacierByteHrs
 USD 0.00
@@ -1330,15 +1270,15 @@ $0.023 per GB - first 50 TB / month of storage used
 USD 0.00
 
 CloudFront
-USD 3,074.67
+USD 2,859.82
 
 Africa (Cape Town)
-USD 1.87
+USD 0.60
 
 Amazon CloudFront ZA-Requests-HTTPS-Proxy
-USD 0.50
+USD 0.16
 $0.0120 per 10,000 Proxy HTTPS Requests (South Africa)
-USD 0.50
+USD 0.16
 
 Amazon CloudFront ZA-Requests-Tier1
 USD 0.00
@@ -1347,18 +1287,18 @@ USD 0.00
 
 Amazon CloudFront ZA-Requests-Tier2-HTTPS
 USD 0.00
-$0.00 per 10,000 Requests for HTTPS GET and HEAD requests in South Africa
+$ 0 per 10,000 HTTPS Requests
 USD 0.00
 
 Bandwidth
-USD 1.37
+USD 0.44
 $0.060 per GB - All data transfer out to Origin (South Africa)
-USD 0.06
+USD 0.01
 $0.110 per GB - first 10 TB / month data transfer out
-USD 1.31
+USD 0.43
 
 Asia Pacific (Mumbai)
-USD 1.10
+USD 0.97
 
 Amazon CloudFront IN-Requests-HTTP-Proxy
 USD 0.00
@@ -1366,9 +1306,9 @@ $0.0090 per 10,000 Proxy HTTP Requests (India)
 USD 0.00
 
 Amazon CloudFront IN-Requests-HTTPS-Proxy
-USD 0.26
+USD 0.22
 $0.0120 per 10,000 Proxy HTTPS Requests (India)
-USD 0.26
+USD 0.22
 
 Amazon CloudFront IN-Requests-Tier1
 USD 0.00
@@ -1377,18 +1317,18 @@ USD 0.00
 
 Amazon CloudFront IN-Requests-Tier2-HTTPS
 USD 0.00
-$0.00 per 10,000 Requests for HTTPS GET and HEAD requests in India
+$ 0 per 10,000 HTTPS Requests (India)
 USD 0.00
 
 Bandwidth
-USD 0.84
+USD 0.75
 $0.109 per GB - first 10 TB / month data transfer out (India)
-USD 0.78
+USD 0.70
 $0.16 per GB - All data transfer out to Origin (India)
-USD 0.06
+USD 0.05
 
 Asia Pacific (Singapore)
-USD 1.24
+USD 0.54
 
 Amazon CloudFront AP-Requests-HTTP-Proxy
 USD 0.00
@@ -1396,39 +1336,34 @@ $0.0090 per 10,000 Proxy HTTP Requests (Asia)
 USD 0.00
 
 Amazon CloudFront AP-Requests-HTTPS-Proxy
-USD 0.31
+USD 0.10
 $0.0120 per 10,000 Proxy HTTPS Requests (Asia)
-USD 0.31
+USD 0.10
 
 Amazon CloudFront AP-Requests-Tier1
 USD 0.00
-$0.00 per 10,000 Requests for HTTP GET and HEAD requests in Asia Pacific
+$ 0 per 10,000 HTTP Requests
 USD 0.00
 
 Amazon CloudFront AP-Requests-Tier2-HTTPS
 USD 0.00
-$0.00 per 10,000 Requests for HTTPS GET and HEAD requests in Asia Pacific
+$ 0 per 10,000 HTTPS Requests
 USD 0.00
 
 Bandwidth
-USD 0.93
+USD 0.44
 $0.060 per GB - All data transfer out to Origin (Asia)
-USD 0.04
+USD 0.01
 $0.120 per GB - first 10 TB / month data transfer out
-USD 0.89
+USD 0.43
 
 Asia Pacific (Sydney)
-USD 0.37
-
-Amazon CloudFront AU-Requests-HTTP-Proxy
-USD 0.00
-$0.0090 per 10,000 Proxy HTTP Requests (Australia)
-USD 0.00
+USD 0.32
 
 Amazon CloudFront AU-Requests-HTTPS-Proxy
-USD 0.06
+USD 0.05
 $0.0125 per 10,000 Proxy HTTPS Requests (Australia)
-USD 0.06
+USD 0.05
 
 Amazon CloudFront AU-Requests-Tier1
 USD 0.00
@@ -1437,18 +1372,18 @@ USD 0.00
 
 Amazon CloudFront AU-Requests-Tier2-HTTPS
 USD 0.00
-$0.00 per 10,000 Requests for HTTPS GET and HEAD requests in Australia
+$ 0 per 10,000 HTTPS Requests
 USD 0.00
 
 Bandwidth
-USD 0.31
+USD 0.27
 $0.08 per GB - All data transfer out to Origin (Australia)
-USD 0.01
+USD 0.00
 $0.114 per GB - first 10 TB / month data transfer out
-USD 0.30
+USD 0.27
 
 Asia Pacific (Tokyo)
-USD 0.10
+USD 0.13
 
 Amazon CloudFront JP-Requests-HTTP-Proxy
 USD 0.00
@@ -1456,9 +1391,9 @@ $0.0090 per 10,000 Proxy HTTP Requests (Japan)
 USD 0.00
 
 Amazon CloudFront JP-Requests-HTTPS-Proxy
-USD 0.01
+USD 0.02
 $0.0120 per 10,000 Proxy HTTPS Requests (Japan)
-USD 0.01
+USD 0.02
 
 Amazon CloudFront JP-Requests-Tier1
 USD 0.00
@@ -1467,18 +1402,18 @@ USD 0.00
 
 Amazon CloudFront JP-Requests-Tier2-HTTPS
 USD 0.00
-$0.00 per 10,000 Requests for HTTPS GET and HEAD requests in Japan
+$ 0 per 10,000 HTTPS Requests
 USD 0.00
 
 Bandwidth
-USD 0.09
+USD 0.11
 $0.060 per GB - All data transfer out to Origin (Japan)
 USD 0.00
 $0.114 per GB - first 10 TB / month data transfer out
-USD 0.09
+USD 0.11
 
 Canada (Central)
-USD 0.81
+USD 0.88
 
 Amazon CloudFront CA-Requests-HTTP-Proxy
 USD 0.00
@@ -1486,29 +1421,29 @@ $0.0075 per 10,000 Proxy HTTP Requests (Canada)
 USD 0.00
 
 Amazon CloudFront CA-Requests-HTTPS-Proxy
-USD 0.08
+USD 0.11
 $0.0100 per 10,000 Proxy HTTPS Requests (Canada)
-USD 0.08
+USD 0.11
 
 Amazon CloudFront CA-Requests-Tier1
 USD 0.00
-$0.0075 per 10,000 HTTP Requests (Canada)
+$ 0 per 10,000 HTTP Requests (Canada)
 USD 0.00
 
 Amazon CloudFront CA-Requests-Tier2-HTTPS
 USD 0.00
-$0.00 per 10,000 Requests for HTTPS GET and HEAD requests in Canada
+$ 0 per 10,000 HTTPS Requests (Canada)
 USD 0.00
 
 Bandwidth
-USD 0.73
+USD 0.77
+$ 0.0345 per GB from 0 to 10,240 GB - Download bandwidth consumed in GigaBytes (CA)
+USD 0.77
 $0.020 per GB - All data transfer out to Origin (Canada)
 USD 0.00
-$0.0345 per GB data transfer out (Canada)
-USD 0.73
 
 EU (Frankfurt)
-USD 342.99
+USD 301.35
 
 Amazon CloudFront EUC1-Bytes-OriginShield
 USD 0.00
@@ -1531,12 +1466,12 @@ $0 per GB - All data transfer out to Origin from Origin Shield
 USD 0.00
 
 Amazon CloudFront EUC1-Requests-OriginShield
-USD 341.89
+USD 300.25
 $0.009 per 10,000 Origin Shield Requests
-USD 341.89
+USD 300.25
 
 EU (Ireland)
-USD 2,667.43
+USD 2,495.40
 
 Amazon CloudFront EU-Lambda-Edge-GB-Second
 USD 0.00
@@ -1544,9 +1479,9 @@ $0.00005001 per Lambda-GB-Second for Lambda-Edge-GB-Second in EU (Ireland)
 USD 0.00
 
 Amazon CloudFront EU-Lambda-Edge-Request
-USD 0.08
+USD 0.10
 $6.0E-7 per Request for Lambda-Edge-Request in EU (Ireland)
-USD 0.08
+USD 0.10
 
 Amazon CloudFront EU-Requests-HTTP-Proxy
 USD 0.00
@@ -1554,30 +1489,30 @@ $0.0090 per 10,000 Proxy HTTP Requests (Europe)
 USD 0.00
 
 Amazon CloudFront EU-Requests-HTTPS-Proxy
-USD 353.06
+USD 317.72
 $0.0120 per 10,000 Proxy HTTPS Requests (Europe)
-USD 353.06
+USD 317.72
 
 Amazon CloudFront EU-Requests-Tier1
 USD 0.00
-$0.00 per 10,000 Requests for HTTP GET and HEAD requests in Europe
+$ 0 per 10,000 HTTP Requests
 USD 0.00
 
 Amazon CloudFront EU-Requests-Tier2-HTTPS
 USD 0.00
-$0.00 per 10,000 Requests for HTTPS GET and HEAD requests in Europe
+$ 0 per 10,000 HTTPS Requests
 USD 0.00
 
 Bandwidth
-USD 2,314.29
-$0.020 per GB - All data transfer out to Origin (Europe)
-USD 14.73
-$0.0345 per GB data transfer out (Europe)
-USD 1,413.12
-$0.0345 per GB data transfer out (Europe)
-USD 533.16
-$0.0345 per GB data transfer out (Europe)
+USD 2,177.58
+$ 0.0345 per GB from 0 to 10,240 GB - Download bandwidth consumed in GigaBytes (Europe)
 USD 353.28
+$ 0.0345 per GB from 10,240 to 51,200 GB - Download bandwidth consumed in GigaBytes (Europe)
+USD 1,413.12
+$ 0.0345 per GB from 51,200 to 153,600 GB - Download bandwidth consumed in GigaBytes (Europe)
+USD 397.92
+$0.020 per GB - All data transfer out to Origin (Europe)
+USD 13.26
 
 EU (London)
 USD 0.00
@@ -1595,6 +1530,11 @@ USD 0.00
 Amazon CloudFront EUW2-Lambda-Edge-Request
 USD 0.00
 $6.0E-7 per Request for Lambda-Edge-Request in EU (London)
+USD 0.00
+
+Amazon CloudFront EUW2-OBytes-OriginShield
+USD 0.00
+$0 per GB - All data transfer out to Origin from Origin Shield
 USD 0.00
 
 Amazon CloudFront EUW2-Requests-OriginShield
@@ -1616,7 +1556,7 @@ $0.000 per URL - first 1,000 URLs / month.
 USD 0.00
 
 Middle East (Bahrain)
-USD 1.80
+USD 3.43
 
 Amazon CloudFront ME-Requests-HTTP-Proxy
 USD 0.00
@@ -1624,9 +1564,9 @@ $0.0090 per 10,000 Proxy HTTP Requests (Middle East)
 USD 0.00
 
 Amazon CloudFront ME-Requests-HTTPS-Proxy
-USD 0.44
+USD 0.82
 $0.0120 per 10,000 Proxy HTTPS Requests (Middle East)
-USD 0.44
+USD 0.82
 
 Amazon CloudFront ME-Requests-Tier1
 USD 0.00
@@ -1635,18 +1575,23 @@ USD 0.00
 
 Amazon CloudFront ME-Requests-Tier2-HTTPS
 USD 0.00
-$0.00 per 10,000 Requests for HTTPS GET and HEAD requests in Middle East
+$ 0 per 10,000 HTTPS Requests
 USD 0.00
 
 Bandwidth
-USD 1.36
+USD 2.61
 $0.060 per GB - All data transfer out to Origin (Middle East)
-USD 0.04
+USD 0.08
 $0.110 per GB - first 10 TB / month data transfer out
-USD 1.32
+USD 2.53
 
 South America (Sao Paulo)
-USD 0.16
+USD 0.15
+
+Amazon CloudFront SA-Requests-HTTP-Proxy
+USD 0.00
+$0.0160 per 10,000 Proxy HTTP Requests (South America)
+USD 0.00
 
 Amazon CloudFront SA-Requests-HTTPS-Proxy
 USD 0.04
@@ -1660,18 +1605,18 @@ USD 0.00
 
 Amazon CloudFront SA-Requests-Tier2-HTTPS
 USD 0.00
-$0.00 per 10,000 Requests for HTTPS GET and HEAD requests in South America
+$ 0 per 10,000 HTTPS Requests
 USD 0.00
 
 Bandwidth
-USD 0.12
+USD 0.11
 $0.110 per GB - first 10 TB / month data transfer out
-USD 0.12
+USD 0.11
 $0.125 per GB - All data transfer out to Origin (South America)
 USD 0.00
 
 US East (N. Virginia)
-USD 56.72
+USD 55.95
 
 Amazon CloudFront Lambda-Edge-GB-Second
 USD 0.00
@@ -1679,9 +1624,9 @@ $0.00005001 per Lambda-GB-Second for in US East (N. Virginia)
 USD 0.00
 
 Amazon CloudFront Lambda-Edge-Request
-USD 0.08
+USD 0.10
 $6.0E-7 per Request for in US East (N. Virginia)
-USD 0.08
+USD 0.10
 
 Amazon CloudFront US-Requests-HTTP-Proxy
 USD 0.00
@@ -1689,18 +1634,18 @@ $0.0075 per 10,000 Proxy HTTP Requests (US)
 USD 0.00
 
 Amazon CloudFront US-Requests-HTTPS-Proxy
-USD 7.65
+USD 7.00
 $0.0100 per 10,000 Proxy HTTPS Requests (US)
-USD 7.65
+USD 7.00
 
 Amazon CloudFront US-Requests-Tier1
 USD 0.00
-$0.00 per 10,000 Requests for HTTP GET and HEAD requests in United States
+$ 0 per 10,000 HTTP Requests
 USD 0.00
 
 Amazon CloudFront US-Requests-Tier2-HTTPS
 USD 0.00
-$0.00 per 10,000 Requests for HTTPS GET and HEAD requests in United States
+$ 0 per 10,000 HTTPS Requests
 USD 0.00
 
 Amazon CloudFront USE1-Bytes-OriginShield
@@ -1708,22 +1653,17 @@ USD 0.00
 $0 per GB - All data transfer into Origin Shield from Origin
 USD 0.00
 
-Amazon CloudFront USE1-OBytes-OriginShield
-USD 0.00
-$0 per GB - All data transfer out to Origin from Origin Shield
-USD 0.00
-
 Amazon CloudFront USE1-Requests-OriginShield
-USD 0.01
+USD 0.00
 $0.0075 per 10,000 Origin Shield Requests
-USD 0.01
+USD 0.00
 
 Bandwidth
-USD 48.98
+USD 48.85
+$ 0.0345 per GB from 0 to 10,240 GB - Download bandwidth consumed in GigaBytes (US)
+USD 48.58
 $0.020 per GB - All data transfer out to Origin (US)
-USD 0.30
-$0.0345 per GB data transfer out (United States)
-USD 48.68
+USD 0.27
 
 US East (Ohio)
 USD 0.00
@@ -1739,7 +1679,7 @@ $6.0E-7 per Request for Lambda-Edge-Request in US East (Ohio)
 USD 0.00
 
 US West (Oregon)
-USD 0.08
+USD 0.10
 
 Amazon CloudFront USW2-Lambda-Edge-GB-Second
 USD 0.00
@@ -1747,129 +1687,156 @@ $0.00005001 per Lambda-GB-Second for Lambda-Edge-GB-Second in US West (Oregon)
 USD 0.00
 
 Amazon CloudFront USW2-Lambda-Edge-Request
-USD 0.08
+USD 0.10
 $6.0E-7 per Request for Lambda-Edge-Request in US West (Oregon)
-USD 0.08
+USD 0.10
 
 Elastic Transcoder
-USD 2,665.33
+USD 2,446.87
 
 EU (Ireland)
-USD 2,665.33
+USD 2,446.87
 
 Amazon Elastic Transcoder EU-ets-hd-success
-USD 2,572.88
+USD 2,364.56
 $0.000 per Minute - HD Transcoding under the monthly Amazon Elastic Transcoder free tier
 USD 0.00
 EU (Ireland) $0.034 per minute for HD content transcoded using Amazon Elastic Transcoder
-USD 2,572.88
+USD 2,364.56
 
 Amazon Elastic Transcoder EU-ets-sd-success
-USD 92.45
+USD 82.31
 $0.000 per Minute - SD Transcoding under the monthly Amazon Elastic Transcoder free tier
 USD 0.00
 EU (Ireland) $0.017 per minute for SD content transcoded using Amazon Elastic Transcoder
-USD 92.45
+USD 82.31
 
 Savings Plans for AWS Compute usage
-USD 2,380.80
+USD 2,304.00
 
 Any
-USD 2,380.80
+USD 2,304.00
 
 Compute Savings Plans
-USD 2,380.80
+USD 2,304.00
 3 year No Upfront Compute Savings Plan
-USD 2,380.80
+USD 2,304.00
 
 Simple Email Service
-USD 2,153.24
+USD 2,126.87
 
 EU (Frankfurt)
-USD 2,153.24
+USD 2,126.87
 
 Amazon Simple Email Service Send
-USD 2,153.24
+USD 2,126.87
 Cost per GB of attachments EUC1
-USD 7.27
+USD 6.88
 Cost per recipient of SendEmail or SendRawEmail EC2 EUC1
-USD 2,145.97
+USD 2,119.99
 $USD0.0 Cost per recipient of SendEmail or SendRawEmail EC2 EUC1
 USD 0.00
 
 Virtual Private Cloud
-USD 1,513.22
+USD 1,443.02
 
 EU (Frankfurt)
-USD 1,509.50
+USD 1,439.42
 
 Amazon Virtual Private Cloud ClientVPNConnections
-USD 224.70
+USD 220.97
 $0.05 per Client VPN Connection Hour
-USD 224.70
+USD 220.97
 
 Amazon Virtual Private Cloud ClientVPNEndpoints
-USD 148.80
+USD 144.00
 $0.1 per Client VPN Endpoint Association Hour
-USD 148.80
+USD 144.00
 
 Amazon Virtual Private Cloud CreateVpnConnection
-USD 111.60
+USD 108.00
 $0.05 per VPN Connection-Hour
-USD 111.60
+USD 108.00
 
 Amazon Virtual Private Cloud Public IPv4 Addresses
-USD 502.58
+USD 498.44
 $0.005 per Idle public IPv4 address per hour
-USD 69.30
+USD 70.77
 $0.005 per In-use public IPv4 address per hour
-USD 433.28
+USD 427.67
 
 Amazon Virtual Private Cloud TransitGatewayVPC
-USD 378.06
+USD 328.94
 $0.02 per GB Data Processed by Transit Gateway VPC Attachment
-USD 11.58
+USD 10.04
 $0.06 per Transit Gateway VPC Attachment Hour
-USD 366.48
+USD 318.90
 
 Amazon Virtual Private Cloud TransitGatewayVPN
-USD 90.17
+USD 87.17
 $0.02 per GB Data Processed by Transit Gateway VPN Attachment
-USD 0.89
+USD 0.77
 $0.06 per Transit Gateway VPN Attachment Hour
-USD 89.28
+USD 86.40
 
 Amazon Virtual Private Cloud VpcEndpoint
-USD 53.59
+USD 51.90
 $0.01 per GB for upto 1 PB monthly data processed by VPC Endpoints
-USD 0.02
+USD 0.06
 $0.012 per VPC Endpoint Hour
-USD 53.57
+USD 51.84
 
 US East (N. Virginia)
-USD 3.72
+USD 3.60
 
 Amazon Virtual Private Cloud Public IPv4 Addresses
-USD 3.72
+USD 3.60
 $0.005 per In-use public IPv4 address per hour
-USD 3.72
+USD 3.60
 
-DynamoDB
-USD 1,510.86
+Elastic Load Balancing
+USD 1,339.53
 
 EU (Frankfurt)
-USD 1,509.41
+USD 1,339.53
+
+Elastic Load Balancing - Application
+USD 1,211.39
+$0.008 per used Application load balancer capacity unit-hour (or partial hour)
+USD 822.54
+$0.027 per Application LoadBalancer-hour (or partial hour)
+USD 388.85
+
+Elastic Load Balancing - Classic
+USD 108.70
+$0.008 per GB Data Processed by the LoadBalancer
+USD 0.70
+$0.030 per LoadBalancer-hour (or partial hour)
+USD 108.00
+
+Elastic Load Balancing - Network
+USD 19.44
+$0.006 per used Network load balancer capacity unit-hour (or partial hour)
+USD 0.00
+$0.0270 per Network LoadBalancer-hour (or partial hour)
+USD 19.44
+
+DynamoDB
+USD 1,217.98
+
+EU (Frankfurt)
+USD 1,216.65
 
 Amazon DynamoDB
-USD 211.68
+USD 210.66
 $0.00 per hour for 25 units of read capacity for a month (free tier)
 USD 0.00
 $0.00 per hour for 25 units of write capacity for a month (free tier)
 USD 0.00
 $0.0001586 per hour for units of read capacity beyond the free tier
-USD 21.03
+USD 21.05
 $0.000793 per hour for units of write capacity beyond the free tier
-USD 190.65
+USD 189.61
 
 Amazon DynamoDB EUC1-TimedBackupStorage-ByteHrs
 USD 0.00
@@ -1877,35 +1844,40 @@ $0.1224 per GB-Month of storage used for on-demand backup
 USD 0.00
 
 Amazon DynamoDB EUC1-TimedPITRStorage-ByteHrs
-USD 9.23
+USD 7.61
 $0.2448 per GB-Month of storage used for DynamoDB PITR backup
-USD 9.23
+USD 7.61
 
 Amazon DynamoDB EUC1-TimedStorage-ByteHrs
-USD 44.31
+USD 37.79
 $0.00 per GB-Month of storage for first 25 free GB-Months
 USD 0.00
 $0.306 per GB-Month of storage used beyond first 25 free GB-Months
-USD 44.31
+USD 37.79
 
 Amazon DynamoDB PayPerRequestThroughput
-USD 1,244.19
+USD 960.59
 $0.305 per million read request units (EU Central(Frankfurt))
-USD 175.78
+USD 86.86
 $1.525 per million write request units (EU Central(Frankfurt))
-USD 1,068.41
+USD 873.73
 
 US East (N. Virginia)
-USD 1.45
+USD 1.33
 
 Amazon DynamoDB
-USD 1.45
+USD 1.33
 $0.00 per hour for 25 units of read capacity for a month (free tier)
 USD 0.00
 $0.00 per hour for 25 units of write capacity for a month (free tier)
 USD 0.00
 $0.00013 per hour for units of read capacity beyond the free tier
-USD 1.45
+USD 1.33
+
+Amazon DynamoDB TimedStorage-ByteHrs
+USD 0.00
+$0.00 per GB-Month of storage for first 25 free GB-Months
+USD 0.00
 
 US East (Ohio)
 USD 0.00
@@ -1917,133 +1889,37 @@ USD 0.00
 $0.00 per hour for 25 units of write capacity for a month (free tier)
 USD 0.00
 
-Elastic Load Balancing
-USD 1,428.21
-
-EU (Frankfurt)
-USD 1,428.21
-
-Elastic Load Balancing - Application
-USD 1,295.27
-$0.008 per used Application load balancer capacity unit-hour (or partial hour)
-USD 893.51
-$0.027 per Application LoadBalancer-hour (or partial hour)
-USD 401.76
-
-Elastic Load Balancing - Classic
-USD 112.85
-$0.008 per GB Data Processed by the LoadBalancer
-USD 1.25
-$0.030 per LoadBalancer-hour (or partial hour)
-USD 111.60
-
-Elastic Load Balancing - Network
-USD 20.09
-$0.006 per used Network load balancer capacity unit-hour (or partial hour)
-USD 0.00
-$0.0270 per Network LoadBalancer-hour (or partial hour)
-USD 20.09
-
 ElastiCache
-USD 1,402.76
+USD 1,160.64
 
 EU (Frankfurt)
-USD 1,402.76
+USD 1,160.64
 
 Amazon ElastiCache for Redis
-USD 398.36
+USD 188.64
 $0.018 per T4G Micro Cache node-hour (or partial hour) running Redis
-USD 32.80
+USD 25.92
 $0.019 per T3 Micro Cache node-hour (or partial hour) running Redis
-USD 28.27
+USD 27.36
 $0.036 per T4G Small Cache node-hour (or partial hour) running Redis
-USD 31.46
-$0.072 per T4G Medium Cache node-hour (or partial hour) running Redis
-USD 30.10
+USD 25.92
 $0.076 per T3 Medium Cache node-hour (or partial hour) running Redis
-USD 82.08
-$0.988 per Memory optimized r6g.2xlarge node hour running Redis
-USD 193.65
+USD 109.44
 
 Amazon ElastiCache for Redis Reserved Instances
-USD 1,004.40
+USD 972.00
 Redis, cache.r6g.2xlarge reserved instance applied
 USD 0.00
 $USD 0.675 hourly fee per Redis, cache.r6g.2xlarge instance
-USD 1,004.40
+USD 972.00
 
 Amazon ElastiCache Snapshot storage
 USD 0.00
 $0.085 per additional GB-month of backup storage exceeding free allocation
 USD 0.00
 
-Lambda
-USD 1,249.91
-
-EU (Frankfurt)
-USD 1,249.91
-
-AWS Lambda EUC1-Lambda-GB-Second
-USD 733.43
-AWS Lambda - Compute Free Tier - 400,000 GB-Seconds - EU (Frankfurt)
-USD 0.00
-AWS Lambda - Total Compute - EU (Frankfurt)-Tier-1
-USD 764.04
-AWS Lambda-EUC1-Lambda-GB-Second usage covered by Compute Savings Plan
-(USD 30.61)
-
-AWS Lambda EUC1-Lambda-GB-Second-ARM
-USD 0.03
-AWS Lambda - Total Compute for ARM - EU (Frankfurt)-Tier-1
-USD 0.03
-
-AWS Lambda EUC1-Lambda-Provisioned-Concurrency
-USD 320.59
-AWS Lambda - Provisioned Concurrency - EU (Frankfurt)
-USD 577.55
-AWS Lambda-EUC1-Lambda-Provisioned-Concurrency usage covered by Compute Savings Plan
-(USD 256.96)
-
-AWS Lambda EUC1-Lambda-Provisioned-Concurrency-ARM
-USD 147.41
-AWS Lambda - Provisioned Concurrency for ARM - EU (Frankfurt)
-USD 193.41
-AWS Lambda-EUC1-Lambda-Provisioned-Concurrency-ARM usage covered by Compute Savings Plan
-(USD 46.00)
-
-AWS Lambda EUC1-Lambda-Provisioned-GB-Second
-USD 0.55
-AWS Lambda - Total Compute (Provisioned) - EU (Frankfurt)
-USD 1.26
-AWS Lambda-EUC1-Lambda-Provisioned-GB-Second usage covered by Compute Savings Plan
-(USD 0.71)
-
-AWS Lambda EUC1-Lambda-Provisioned-GB-Second-ARM
-USD 0.29
-AWS Lambda - Total Compute (Provisioned) for ARM - EU (Frankfurt)
-USD 0.42
-AWS Lambda-EUC1-Lambda-Provisioned-GB-Second-ARM usage covered by Compute Savings Plan
-(USD 0.13)
-
-AWS Lambda EUC1-Lambda-Storage-GB-Second
-USD 0.00
-AWS Lambda - Ephemeral Storage - EU (Frankfurt)
-USD 0.00
-
-AWS Lambda EUC1-Request
-USD 47.60
-AWS Lambda - Requests Free Tier - 1,000,000 Requests - EU (Frankfurt)
-USD 0.00
-AWS Lambda - Total Requests - EU (Frankfurt)
-USD 47.60
-
-AWS Lambda EUC1-Request-ARM
-USD 0.01
-AWS Lambda - Total Requests for ARM - EU (Frankfurt)
-USD 0.01
-
 CloudWatch
-USD 1,229.97
+USD 1,013.44
 
 Any
 USD 24.00
@@ -2098,45 +1974,45 @@ First 5GB-mo per month of logs storage is free.
 USD 0.00
 
 EU (Frankfurt)
-USD 1,201.32
+USD 984.76
 
 Amazon CloudWatch
-USD 223.34
+USD 201.04
 $0.00 per metric-month - first 10 metrics
 USD 0.00
 $0.00 per request - first 1,000,000 requests
 USD 0.00
 $0.01 per 1,000 metrics requested using GetMetricData API - EU (Frankfurt)
-USD 141.80
+USD 120.00
 $0.037 per million Events for CW:ContributorEventsManaged in EU (Frankfurt)
 USD 0.00
 $0.10 per alarm metric month (standard resolution) - EU (Frankfurt)
-USD 32.17
+USD 33.67
 $0.30 per metric-month for the first 10,000 metrics - EU (Frankfurt)
-USD 44.37
+USD 42.37
 $0.50 per rule per month for CW-Rule-DynamoDB in EU (Frankfurt)
 USD 5.00
 
 AmazonCloudWatch EUC1-S3-Egress-Bytes
-USD 84.65
+USD 9.26
 $0.285 per GB of log data delivered to S3 for the first 10TB - EU (Frankfurt)
-USD 84.65
+USD 9.26
 First 5GB per month of log data delivered to S3 is free
 USD 0.00
 
 AmazonCloudWatch EUC1-TimedStorage-ByteHrs
-USD 71.54
+USD 66.21
 $0.0324 per GB-mo of log storage - EU (Frankfurt)
-USD 71.54
+USD 66.21
 First 5GB-mo per month of logs storage is free.
 USD 0.00
 
 AmazonCloudWatch PutLogEvents
-USD 821.79
+USD 708.25
 $0.63 per GB custom log data ingested in Standard log class - EU (Frankfurt)
-USD 449.60
+USD 225.66
 $0.63 per GB of vended logs ingested in Standard log class for the first 10TB - EU (Frankfurt)
-USD 372.19
+USD 482.59
 First 5GB per month of log data ingested is free.
 USD 0.00
 
@@ -2144,14 +2020,14 @@ EU (Ireland)
 USD 0.61
 
 AmazonCloudWatch EU-TimedStorage-ByteHrs
-USD 0.53
+USD 0.52
 $0.03 per GB-mo of log storage - EU (Ireland)
-USD 0.53
+USD 0.52
 
 AmazonCloudWatch PutLogEvents
-USD 0.08
+USD 0.09
 $0.57 per GB custom log data ingested in Standard log class - EU (Ireland)
-USD 0.08
+USD 0.09
 
 EU (London)
 USD 1.29
@@ -2183,7 +2059,7 @@ First 5GB-mo per month of logs storage is free.
 USD 0.00
 
 US East (N. Virginia)
-USD 2.51
+USD 2.53
 
 Amazon CloudWatch
 USD 2.40
@@ -2195,14 +2071,14 @@ $0.10 per alarm metric month (standard resolution) - US East (Northern Virginia)
 USD 2.40
 
 AmazonCloudWatch PutLogEvents
-USD 0.07
+USD 0.08
 $0.50 per GB custom log data ingested in Standard log class - US East (Northern Virginia)
-USD 0.07
+USD 0.08
 
 AmazonCloudWatch USE1-TimedStorage-ByteHrs
-USD 0.04
+USD 0.05
 $0.03 per GB-mo of log storage - US East (Northern Virginia)
-USD 0.04
+USD 0.05
 
 US East (Ohio)
 USD 0.02
@@ -2226,12 +2102,12 @@ First 5GB-mo per month of logs storage is free.
 USD 0.00
 
 US West (Oregon)
-USD 0.21
+USD 0.22
 
 AmazonCloudWatch PutLogEvents
-USD 0.07
+USD 0.08
 $0.50 per GB custom log data ingested in Standard log class - US West (Oregon)
-USD 0.07
+USD 0.08
 
 AmazonCloudWatch USW2-TimedStorage-ByteHrs
 USD 0.14
@@ -2239,34 +2115,34 @@ $0.03 per GB-mo of log storage - US West (Oregon)
 USD 0.14
 
 Athena
-USD 880.06
+USD 917.38
 
 EU (Frankfurt)
-USD 880.06
+USD 917.38
 
 Amazon Athena EUC1-DataScannedInTB
-USD 880.06
+USD 917.38
 5.00 USD per Terabytes for DataScannedInTB in EU (Frankfurt)
-USD 880.06
+USD 917.38
 
 Config
-USD 851.58
+USD 814.31
 
 EU (Frankfurt)
-USD 849.25
+USD 811.65
 
 AWS Config EUC1-ConfigRuleEvaluations
-USD 65.45
+USD 64.24
 $0.001 for the first 100,000 evaluations in EU (Frankfurt) region
-USD 65.45
+USD 64.24
 
 AWS Config EUC1-ConfigurationItemRecorded
-USD 783.80
+USD 747.41
 $0.003 per Configuration Item recorded in EU (Frankfurt) region
-USD 783.80
+USD 747.41
 
 EU (Ireland)
-USD 0.83
+USD 1.36
 
 AWS Config EU-ConfigRuleEvaluations
 USD 0.09
@@ -2274,12 +2150,12 @@ $0.001 for the first 100,000 evaluations in EU (Ireland) region
 USD 0.09
 
 AWS Config EU-ConfigurationItemRecorded
-USD 0.74
+USD 1.27
 $0.003 per Configuration Item recorded in EU (Ireland) region
-USD 0.74
+USD 1.27
 
 EU (Stockholm)
-USD 1.50
+USD 1.30
 
 AWS Config EUN1-ConfigRuleEvaluations
 USD 0.03
@@ -2287,64 +2163,100 @@ $0.001 for the first 100,000 evaluations in EU (Stockholm) region
 USD 0.03
 
 AWS Config EUN1-ConfigurationItemRecorded
-USD 1.47
+USD 1.27
 $0.003 per Configuration Item recorded in EU (Stockholm) region
-USD 1.47
+USD 1.27
 
-GuardDuty
-USD 730.00
+Lambda
+USD 809.69
 
 EU (Frankfurt)
-USD 730.00
+USD 809.69
 
-Amazon GuardDuty EUC1-FreeEKSvCPUMonitored
+AWS Lambda EUC1-Lambda-GB-Second
+USD 476.28
+AWS Lambda - Compute Free Tier - 400,000 GB-Seconds - EU (Frankfurt)
 USD 0.00
-$0.00 per vCPU / month monitored (free trial) in Europe (Frankfurt) region
-USD 0.00
+AWS Lambda - Total Compute - EU (Frankfurt)-Tier-1
+USD 533.68
+AWS Lambda-EUC1-Lambda-GB-Second usage covered by Compute Savings Plan
+(USD 57.40)
 
-Amazon GuardDuty EUC1-FreeEventsAnalyzed
-USD 0.00
-$0.00 per CloudTrail events analyzed (free trial) EU (Frankfurt) region
-USD 0.00
+AWS Lambda EUC1-Lambda-GB-Second-ARM
+USD 0.21
+AWS Lambda - Total Compute for ARM - EU (Frankfurt)-Tier-1
+USD 0.22
+AWS Lambda-EUC1-Lambda-GB-Second-ARM usage covered by Compute Savings Plan
+(USD 0.01)
 
-Amazon GuardDuty EUC1-FreeEventsAnalyzed-Bytes
-USD 0.00
-$0.00 per GB of VPC Flow Log & DNS log data analyzed (free trial) EU (Frankfurt) region
-USD 0.00
+AWS Lambda EUC1-Lambda-Provisioned-Concurrency
+USD 211.06
+AWS Lambda - Provisioned Concurrency - EU (Frankfurt)
+USD 559.00
+AWS Lambda-EUC1-Lambda-Provisioned-Concurrency usage covered by Compute Savings Plan
+(USD 347.94)
 
-Amazon GuardDuty EUC1-FreeKubernetesAuditLogsAnalyzed
+AWS Lambda EUC1-Lambda-Provisioned-Concurrency-ARM
+USD 105.75
+AWS Lambda - Provisioned Concurrency for ARM - EU (Frankfurt)
+USD 187.22
+AWS Lambda-EUC1-Lambda-Provisioned-Concurrency-ARM usage covered by Compute Savings Plan
+(USD 81.47)
+
+AWS Lambda EUC1-Lambda-Provisioned-GB-Second
+USD 0.95
+AWS Lambda - Total Compute (Provisioned) - EU (Frankfurt)
+USD 1.81
+AWS Lambda-EUC1-Lambda-Provisioned-GB-Second usage covered by Compute Savings Plan
+(USD 0.86)
+
+AWS Lambda EUC1-Lambda-Provisioned-GB-Second-ARM
+USD 0.20
+AWS Lambda - Total Compute (Provisioned) for ARM - EU (Frankfurt)
+USD 0.41
+AWS Lambda-EUC1-Lambda-Provisioned-GB-Second-ARM usage covered by Compute Savings Plan
+(USD 0.21)
+
+AWS Lambda EUC1-Request
+USD 15.21
+AWS Lambda - Requests Free Tier - 1,000,000 Requests - EU (Frankfurt)
 USD 0.00
-$0.0 per Kubernetes Audit Log Analyzed (free trial) in EU (Frankfurt)
-USD 0.00
+AWS Lambda - Total Requests - EU (Frankfurt)
+USD 16.02
+AWS Lambda-EUC1-Request usage covered by Compute Savings Plan
+(USD 0.81)
+
+AWS Lambda EUC1-Request-ARM
+USD 0.03
+AWS Lambda - Total Requests for ARM - EU (Frankfurt)
+USD 0.04
+AWS Lambda-EUC1-Request-ARM usage covered by Compute Savings Plan
+(USD 0.01)
+
+GuardDuty
+USD 694.10
+
+EU (Frankfurt)
+USD 694.10
 
 Amazon GuardDuty EUC1-PaidEKSvCPUMonitored
-USD 516.98
+USD 492.69
 $1.92 per vCPU for the first 500 vCPU / month monitored in Europe (Frankfurt) region
-USD 516.98
+USD 492.69
 
 Amazon GuardDuty EUC1-PaidEventsAnalyzed
-USD 180.53
+USD 174.25
 $0.0000046 per CloudTrail event analyzed in EU (Frankfurt) region
-USD 180.53
+USD 174.25
 
 Amazon GuardDuty EUC1-PaidEventsAnalyzed-Bytes
-USD 24.05
+USD 19.78
 $1.15 per GB for the first 500 GB / month of data analyzed EU (Frankfurt) region
-USD 24.05
+USD 19.78
 
 Amazon GuardDuty EUC1-PaidLambdaNetworkLogsAnalyzed-Bytes
 USD 0.00
 $1.15 per GB for the first 500 GB / month of Lambda based network data analyzed in EU (Frankfurt) region
-USD 0.00
-
-Amazon GuardDuty EUC1-PaidMalwareProtectionEBSDataScanned
-USD 1.06
-$0.04 per GB for PaidMalwareProtectionEBSDataScanned in EU (Frankfurt)
-USD 1.06
-
-Amazon GuardDuty EUC1-PaidS3DataEventsAnalyzed
-USD 0.00
-$0.00000104 per S3 Data Event for the first 500000000 events / month analyzed in EU (Frankfurt) region
 USD 0.00
 
 Amazon GuardDuty for Aurora MySQL
@@ -2353,22 +2265,22 @@ $1.23 per vCPU / month analyzed in Europe (Frankfurt) region
 USD 7.38
 
 Simple Queue Service
-USD 607.87
+USD 562.14
 
 EU (Frankfurt)
-USD 607.87
+USD 562.14
 
 Amazon Simple Queue Service EUC1-Requests-FIFO-Tier1
-USD 41.38
+USD 31.61
 $0.50 per million Amazon SQS FIFO requests in Tier1 in EU (Frankfurt)
-USD 41.38
+USD 31.61
 First 1,000,000 Amazon SQS Requests per month are free
 USD 0.00
 
 Amazon Simple Queue Service EUC1-Requests-Tier1
-USD 566.49
+USD 530.53
 $0.40 per million Amazon SQS standard requests in Tier1 in EU (Frankfurt)
-USD 566.49
+USD 530.53
 
 EU (Ireland)
 USD 0.00
@@ -2386,37 +2298,8 @@ USD 0.00
 $0.40 per million Amazon SQS standard requests in Tier1 in EU (Stockholm)
 USD 0.00
 
-Glue
-USD 420.61
-
-EU (Frankfurt)
-USD 420.61
-
-AWS Glue Jobrun
-USD 420.61
-$0.44 per Data Processing Unit-Hour for AWS Glue ETL job
-USD 420.61
-
-AWS Glue Request
-USD 0.00
-$0 for AWS Glue Data Catalog requests under the free tier
-USD 0.00
-
-AWS Glue Storage
-USD 0.00
-$0 for AWS Glue Data Catalog storage under the free tier
-USD 0.00
-
-EU (Ireland)
-USD 0.00
-
-AWS Glue Storage
-USD 0.00
-$0 for AWS Glue Data Catalog storage under the free tier
-USD 0.00
-
 CloudTrail
-USD 401.39
+USD 446.13
 
 Asia Pacific (Mumbai)
 USD 0.01
@@ -2505,12 +2388,12 @@ USD 0.01
 USD 0.01
 
 EU (Frankfurt)
-USD 376.57
+USD 414.38
 
 AWS CloudTrail EUC1-DataEventsRecorded
-USD 0.00
+USD 0.02
 0.000001 per data event recorded in EU (Frankfurt) region
-USD 0.00
+USD 0.02
 
 AWS CloudTrail EUC1-FreeEventsRecorded
 USD 0.00
@@ -2518,17 +2401,17 @@ USD 0.00
 USD 0.00
 
 AWS CloudTrail EUC1-InsightsEvents
-USD 2.33
+USD 2.02
 0.0000035 per event analyzed in EU (Frankfurt) region
-USD 2.33
+USD 2.02
 
 AWS CloudTrail EUC1-PaidEventsRecorded
-USD 374.24
+USD 412.34
 0.00002 per paid event recorded in EU (Frankfurt) region
-USD 374.24
+USD 412.34
 
 EU (Ireland)
-USD 1.69
+USD 1.57
 
 AWS CloudTrail EU-FreeEventsRecorded
 USD 0.00
@@ -2541,9 +2424,9 @@ USD 0.02
 USD 0.02
 
 AWS CloudTrail EU-PaidEventsRecorded
-USD 1.67
+USD 1.55
 0.00002 per paid event recorded in EU (Dublin) region
-USD 1.67
+USD 1.55
 
 EU (London)
 USD 0.01
@@ -2572,7 +2455,7 @@ USD 0.01
 USD 0.01
 
 EU (Stockholm)
-USD 1.09
+USD 1.04
 
 AWS CloudTrail EUN1-FreeEventsRecorded
 USD 0.00
@@ -2585,9 +2468,9 @@ USD 0.00
 USD 0.00
 
 AWS CloudTrail EUN1-PaidEventsRecorded
-USD 1.09
+USD 1.04
 0.00002 per paid event recorded in EU (Stockholm) region
-USD 1.09
+USD 1.04
 
 South America (Sao Paulo)
 USD 0.01
@@ -2603,7 +2486,7 @@ USD 0.01
 USD 0.01
 
 US East (N. Virginia)
-USD 21.91
+USD 29.01
 
 AWS CloudTrail USE1-FreeEventsRecorded
 USD 0.00
@@ -2616,9 +2499,9 @@ USD 0.00
 USD 0.00
 
 AWS CloudTrail USE1-PaidEventsRecorded
-USD 21.91
+USD 29.01
 0.00002 per paid event recorded in US East (N.Virginia) region
-USD 21.91
+USD 29.01
 
 US East (Ohio)
 USD 0.01
@@ -2660,15 +2543,15 @@ USD 0.02
 USD 0.02
 
 WAF
-USD 386.44
+USD 353.37
 
 Any
-USD 353.44
+USD 320.37
 
 AWS WAF Global-RequestV2-Tier1
-USD 314.44
+USD 281.37
 $0.60 per million requests processed
-USD 314.44
+USD 281.37
 
 AWS WAF Global-RuleV2
 USD 19.00
@@ -2693,59 +2576,23 @@ USD 15.00
 $5.00 per web ACL created (prorated hourly)
 USD 15.00
 
-Elastic Container Service
-USD 369.57
-
-EU (Frankfurt)
-USD 369.57
-
-Amazon Elastic Container Service EUC1-Fargate-GB-Hours
-USD 64.77
-AWS Fargate - Memory - EU (Frankfurt)
-USD 183.46
-AWS Fargate - Memory - EU (Frankfurt) usage covered by Compute Savings Plans
-(USD 118.69)
-
-Amazon Elastic Container Service EUC1-Fargate-vCPU-Hours:perCPU
-USD 304.80
-AWS Fargate - vCPU - EU (Frankfurt)
-USD 801.18
-AWS Fargate - vCPU - EU (Frankfurt) usage covered by Compute Savings Plans
-(USD 496.38)
-
-Elastic Container Service for Kubernetes
-USD 320.85
-
-EU (Frankfurt)
-USD 320.85
-
-Amazon Elastic Container Service for Kubernetes CreateOperation
-USD 298.77
-Amazon EKS cluster usage in EU (Frankfurt)
-USD 298.77
-
-Amazon Elastic Container Service for Kubernetes ExtendedSupport
-USD 22.08
-Amazon EKS extended support usage in EU (Frankfurt)
-USD 22.08
-
 Key Management Service
-USD 240.86
+USD 323.43
 
 EU (Frankfurt)
-USD 239.84
+USD 322.41
 
 AWS Key Management Service eu-central-1-KMS-Keys
-USD 39.54
+USD 41.80
 $1 per customer managed KMS key version in EU (Frankfurt)
-USD 39.54
+USD 41.80
 
 AWS Key Management Service eu-central-1-KMS-Requests
-USD 200.30
+USD 280.61
 $0.00 per request - Monthly Global Free Tier for KMS requests
 USD 0.00
 $0.03 per 10000 KMS requests in EU (Frankfurt)
-USD 200.30
+USD 280.61
 
 EU (Ireland)
 USD 0.01
@@ -2776,24 +2623,68 @@ USD 0.00
 $0.03 per 10000 KMS requests in US East (N. Virginia)
 USD 0.00
 
-API Gateway
-USD 220.14
+Elastic Container Service
+USD 293.67
 
 EU (Frankfurt)
-USD 220.14
+USD 293.67
 
-Amazon API Gateway ApiGatewayHttpApi
-USD 0.01
-$1.2/million requests - API Gateway HTTP API (first 300 million)
-USD 0.01
+Amazon Elastic Container Service EUC1-Fargate-GB-Hours
+USD 53.19
+AWS Fargate - Memory - EU (Frankfurt)
+USD 169.75
+AWS Fargate - Memory - EU (Frankfurt) usage covered by Compute Savings Plans
+(USD 116.56)
 
-Amazon API Gateway ApiGatewayRequest
-USD 220.13
-$3.70/million requests - first 333 million requests/month
-USD 220.13
+Amazon Elastic Container Service EUC1-Fargate-vCPU-Hours:perCPU
+USD 240.48
+AWS Fargate - vCPU - EU (Frankfurt)
+USD 739.80
+AWS Fargate - vCPU - EU (Frankfurt) usage covered by Compute Savings Plans
+(USD 499.32)
+
+Elastic Container Service for Kubernetes
+USD 288.00
+
+EU (Frankfurt)
+USD 288.00
+
+Amazon Elastic Container Service for Kubernetes CreateOperation
+USD 288.00
+Amazon EKS cluster usage in EU (Frankfurt)
+USD 288.00
+
+Glue
+USD 133.94
+
+EU (Frankfurt)
+USD 133.94
+
+AWS Glue Jobrun
+USD 133.94
+$0.44 per Data Processing Unit-Hour for AWS Glue ETL job
+USD 133.94
+
+AWS Glue Request
+USD 0.00
+$0 for AWS Glue Data Catalog requests under the free tier
+USD 0.00
+
+AWS Glue Storage
+USD 0.00
+$0 for AWS Glue Data Catalog storage under the free tier
+USD 0.00
+
+EU (Ireland)
+USD 0.00
+
+AWS Glue Storage
+USD 0.00
+$0 for AWS Glue Data Catalog storage under the free tier
+USD 0.00
 
 Route 53
-USD 124.22
+USD 123.00
 
 Any
 USD 15.50
@@ -2806,12 +2697,12 @@ $0.50 per Hosted Zone for the first 25 Hosted Zones
 USD 12.50
 
 Global
-USD 108.72
+USD 107.50
 
 Amazon Route 53 DNS-Queries
-USD 53.97
+USD 52.39
 $0.40 per 1,000,000 queries for the first 1 Billion queries
-USD 53.97
+USD 52.39
 
 Amazon Route 53 Health-Check-AWS
 USD 0.00
@@ -2819,19 +2710,19 @@ First 50 Health Checks of AWS endpoints are free of charge
 USD 0.00
 
 Amazon Route 53 Health-Check-Non-AWS
-USD 3.75
+USD 3.85
 $0.75 per Health Check for Health Checks of non-AWS endpoints
-USD 3.75
+USD 3.85
 
 Amazon Route 53 Health-Check-Option-AWS
-USD 37.00
+USD 36.73
 $1.00 per optional feature for Health Checks of AWS endpoints
-USD 37.00
+USD 36.73
 
 Amazon Route 53 Health-Check-Option-Non-AWS
-USD 14.00
+USD 14.53
 $2.00 per optional feature for Health Checks of non-AWS endpoints
-USD 14.00
+USD 14.53
 
 Amazon Route 53 Intra-AWS-DNS-Queries
 USD 0.00
@@ -2839,20 +2730,20 @@ Queries to Alias records are free of charge
 USD 0.00
 
 Simple Notification Service
-USD 88.32
+USD 91.22
 
 EU (Frankfurt)
-USD 9.99
+USD 11.33
 
 Amazon Simple Notification Service EUC1-DeliveryAttempts-APNS
-USD 3.57
+USD 4.07
 $0.50 per 1,000,000 Mobile Push Notifications per month thereafter
-USD 3.57
+USD 4.07
 
 Amazon Simple Notification Service EUC1-DeliveryAttempts-GCM
-USD 0.56
+USD 0.87
 $0.50 per 1,000,000 Mobile Push Notifications per month thereafter
-USD 0.56
+USD 0.87
 
 Amazon Simple Notification Service EUC1-DeliveryAttempts-HTTP
 USD 0.04
@@ -2872,26 +2763,26 @@ First 1,000 Amazon SNS Email/Email-JSON Notifications per month are free
 USD 0.00
 
 Amazon Simple Notification Service EUC1-Requests-Tier1
-USD 5.82
+USD 6.35
 $0.50 per 1,000,000 Amazon SNS API Requests per month thereafter
-USD 5.82
+USD 6.35
 First 1,000,000 Amazon SNS API Requests per month are free
 USD 0.00
 
 EU (Ireland)
-USD 78.33
+USD 79.89
 
 Amazon Simple Notification Service EU-DeliveryAttempts-APNS
-USD 31.85
+USD 30.93
 $0.50 per 1,000,000 Mobile Push Notifications per month thereafter
-USD 31.85
+USD 30.93
 First 1,000,000 Mobile Push Notifications per month are free
 USD 0.00
 
 Amazon Simple Notification Service EU-DeliveryAttempts-GCM
-USD 5.19
+USD 6.78
 $0.50 per 1,000,000 Mobile Push Notifications per month thereafter
-USD 5.19
+USD 6.78
 
 Amazon Simple Notification Service EU-DeliveryAttempts-HTTP
 USD 0.00
@@ -2899,9 +2790,9 @@ First 100,000 Amazon SNS HTTP/HTTPS Notifications per month are free
 USD 0.00
 
 Amazon Simple Notification Service EU-Requests-Tier1
-USD 41.29
+USD 42.18
 $0.50 per 1,000,000 Amazon SNS API Requests per month thereafter
-USD 41.29
+USD 42.18
 First 1,000,000 Amazon SNS API Requests per month are free
 USD 0.00
 
@@ -2921,48 +2812,64 @@ USD 0.00
 First 100,000 Amazon SNS HTTP/HTTPS Notifications per month are free
 USD 0.00
 
+Amazon Simple Notification Service DeliveryAttempts-SMTP
+USD 0.00
+First 1,000 Amazon SNS Email/Email-JSON Notifications per month are free
+USD 0.00
+
 Amazon Simple Notification Service Requests-Tier1
 USD 0.00
 First 1,000,000 Amazon SNS API Requests per month are free
 USD 0.00
 
-Registrar
-USD 28.00
-
-Global
-USD 28.00
-
-Amazon Registrar DomainTransfer
-USD 14.00
-[OP-F0OA] Transfer of findnurture.com
-USD 14.00
-
-Amazon Registrar RenewDomain
-USD 14.00
-[OP-enBN] Renewal of famlyhq.com
-USD 14.00
-
-QuickSight
-USD 23.94
-
-Any
-USD 23.94
-
-Amazon QuickSight QS-User-Enterprise-Month
-USD 23.94
-QuickSight Enterprise Edition User
-USD 23.94
-
-Lightsail
-USD 21.99
+API Gateway
+USD 45.09
 
 EU (Frankfurt)
-USD 21.99
+USD 45.09
+
+Amazon API Gateway ApiGatewayHttpApi
+USD 0.00
+$1.2/million requests - API Gateway HTTP API (first 300 million)
+USD 0.00
+
+Amazon API Gateway ApiGatewayRequest
+USD 45.09
+$3.70/million requests - first 333 million requests/month
+USD 45.09
+
+Registrar
+USD 31.00
+
+Global
+USD 31.00
+
+Amazon Registrar RenewDomain
+USD 31.00
+[OP-gAcQ] Renewal of tryfamly.co
+USD 31.00
+
+QuickSight
+USD 24.00
+
+Any
+USD 24.00
+
+Amazon QuickSight QS-User-Enterprise-Month
+USD 24.00
+QuickSight Enterprise Edition User
+USD 24.00
+
+Lightsail
+USD 21.28
+
+EU (Frankfurt)
+USD 21.28
 
 Amazon Lightsail Bundle:2GB
-USD 21.99
+USD 21.28
 $0.02956 / Hour of 2GB bundle Instance including public IPv4 address (Windows)
-USD 21.99
+USD 21.28
 
 Amazon Lightsail EUC1-TotalDataXfer-Out-Bytes
 USD 0.00
@@ -2977,38 +2884,29 @@ USD 0.00
 $0.00 / GB - data transfer in
 USD 0.00
 
-CodeWhisperer
-USD 19.00
-
-US East (N. Virginia)
-USD 19.00
-
-Amazon CodeWhisperer USE1-CodeWhisperer-Professional
-USD 19.00
-Monthly charge for CodeWhisperer Professional tier
-USD 19.00
-
-Amazon Chime
-USD 10.11
-
-US East (N. Virginia)
-USD 10.11
-
-Amazon Chime USE1-Chime-SDK-attendee-minutes
-USD 10.11
-$0.0017 per minutes for Chime-SDK-attendee-minutes in US East (N. Virginia)
-USD 10.11
-
-Secrets Manager
-USD 7.97
+CodePipeline
+USD 9.00
 
 EU (Frankfurt)
-USD 7.57
+USD 9.00
+
+AWS CodePipeline EUC1-activePipeline
+USD 9.00
+$0.00 for first active pipeline
+USD 0.00
+$1.00 per additional active pipeline
+USD 9.00
+
+Secrets Manager
+USD 7.96
+
+EU (Frankfurt)
+USD 7.56
 
 AWS Secrets Manager EUC1-AWSSecretsManager-Secrets
-USD 7.57
+USD 7.56
 $0.40 per Secret
-USD 7.57
+USD 7.56
 
 AWS Secrets Manager EUC1-AWSSecretsManagerAPIRequest
 USD 0.00
@@ -3023,6 +2921,11 @@ USD 0.40
 $0.40 per Secret
 USD 0.40
 
+AWS Secrets Manager USE1-AWSSecretsManagerAPIRequest
+USD 0.00
+$0.05 per 10000 API Requests
+USD 0.00
+
 Cost Explorer
 USD 7.90
 
@@ -3030,25 +2933,36 @@ US East (N. Virginia)
 USD 7.90
 
 AWS Cost Explorer CostDataStorage
-USD 6.35
+USD 6.40
 $0.01 per 1,000 UsageRecord-month of stored Granular Cost Data Usage-records
-USD 6.35
+USD 6.40
 
 AWS Cost Explorer USE1-APIRequest
-USD 1.55
+USD 1.50
 $0.01 per API Request
-USD 1.55
+USD 1.50
+
+Amazon Chime
+USD 6.91
+
+US East (N. Virginia)
+USD 6.91
+
+Amazon Chime USE1-Chime-SDK-attendee-minutes
+USD 6.91
+$0.0017 per minutes for Chime-SDK-attendee-minutes in US East (N. Virginia)
+USD 6.91
 
 EC2 Container Registry (ECR)
-USD 5.07
+USD 5.00
 
 EU (Frankfurt)
-USD 5.07
+USD 5.00
 
 Amazon EC2 Container Registry (ECR) EUC1-TimedStorage-ByteHrs
-USD 5.07
+USD 5.00
 $0.10 per GB-month of data storage
-USD 5.07
+USD 5.00
 
 SageMaker
 USD 3.33
@@ -3061,11 +2975,24 @@ USD 3.33
 $0.13328 per GB-Mo of provisioned ML storage
 USD 3.33
 
-CloudWatch Events
-USD 1.42
+CodeBuild
+USD 2.58
 
 EU (Frankfurt)
-USD 1.42
+USD 2.58
+
+CodeBuild EUC1-Build-Min:Linux:g1.small
+USD 2.58
+AWS CodeBuild - Build minutes on build.general1.small - EU (Frankfurt)
+USD 2.58
+AWS CodeBuild Free Tier - 100 build minutes on build.general1.small
+USD 0.00
+
+CloudWatch Events
+USD 0.92
+
+EU (Frankfurt)
+USD 0.92
 
 CloudWatch Events Invocation
 USD 0.00
@@ -3073,55 +3000,29 @@ $0 for the first 14 million scheduled invocations
 USD 0.00
 
 CloudWatch Events PutEvents
-USD 1.42
+USD 0.92
 $1.00 per million EventBridge custom events received in EU (Frankfurt)
-USD 1.42
-
-CodePipeline
-USD 1.00
-
-EU (Frankfurt)
-USD 1.00
-
-AWS CodePipeline EUC1-activePipeline
-USD 1.00
-$0.00 for first active pipeline
-USD 0.00
-$1.00 per additional active pipeline
-USD 1.00
+USD 0.92
 
 Budgets
-USD 0.93
+USD 0.90
 
 Any
-USD 0.93
+USD 0.90
 
-$USD 0.93
+$USD 0.90
 $0.01 per AWS Budgets Report Delivered
-$USD 0.93
+$USD 0.90
 
-CodeBuild
-USD 0.45
-
-EU (Frankfurt)
-USD 0.45
-
-CodeBuild EUC1-Build-Min:Linux:g1.small
-USD 0.45
-AWS CodeBuild - Build minutes on build.general1.small - EU (Frankfurt)
-USD 0.45
-AWS CodeBuild Free Tier - 100 build minutes on build.general1.small
+CodeWhisperer
 USD 0.00
 
-CloudFormation
+US East (N. Virginia)
 USD 0.00
 
-EU (Frankfurt)
+Amazon CodeWhisperer USE1-CodeWhisperer-Professional
 USD 0.00
-
-AWS CloudFormation ProcessResourceHandlers
-USD 0.00
-$USD 0.0 per Operations for Resource-Invocation-Count:ProcessResourceHandlers usage
+Monthly charge for CodeWhisperer Professional tier
 USD 0.00
 
 Cognito

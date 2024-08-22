@@ -1,0 +1,66 @@
+CREATE EXTERNAL TABLE IF NOT EXISTS `thanos`.`thanosanalysis` (
+  `bucket_owner` string,
+  `bucket` string,
+  `request_datetime` string,
+  `remote_ip` string,
+  `requester` string,
+  `request_id` string,
+  `operation` string,
+  `key` string,
+  `request_uri` string,
+  `http_status` int,
+  `error_code` string,
+  `bytes_sent` bigint,
+  `object_size` bigint,
+  `total_time` int,
+  `turn_around_time` int,
+  `referrer` string,
+  `user_agent` string,
+  `version_id` string,
+  `host_id` string,
+  `signature_version` string,
+  `cipher_suite` string,
+  `authentication_type` string,
+  `host_header` string,
+  `tls_version` string,
+  `access_point_arn` string,
+  `acl_required` string
+)
+ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.RegexSerDe'
+WITH SERDEPROPERTIES (
+  'input.regex' = '([^ ]*) ([^ ]*) \\[(.*?)\\] ([^ ]*) ([^ ]*) ([^ ]*) ([^ ]*) ([^ ]*) \"([^ ]* [^ ]* [^ ]*)\" ([^ ]*) ([^ ]*) ([^ ]*) ([^ ]*) ([^ ]*) ([^ ]*) \"([^\"]*)\" \"([^\"]*)\" ([^ ]*) ([^ ]*) ([^ ]*) ([^ ]*) ([^ ]*) ([^ ]*) ([^ ]*) ([^ ]*) ([^ ]*)'
+)
+STORED AS INPUTFORMAT 'org.apache.hadoop.mapred.TextInputFormat' OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
+LOCATION 's3://s3-get-logs/';
+
+
+
+
+SELECT 
+  REVERSE(SUBSTRING(REVERSE(requester), STRPOS(REVERSE(requester), '/') + 1)) as assumed_role,
+  operation,
+  COUNT(*) as operation_count
+FROM 
+  thanosanalysis
+WHERE
+parse_datetime(request_datetime, 'dd/MMM/yyyy:HH:mm:ss Z') 
+      BETWEEN parse_datetime('2024-08-22 09:00:00', 'yyyy-MM-dd HH:mm:ss')
+      AND parse_datetime('2024-08-22 09:59:59', 'yyyy-MM-dd HH:mm:ss')
+GROUP BY
+  REVERSE(SUBSTRING(REVERSE(requester), STRPOS(REVERSE(requester), '/') + 1)),
+  operation
+HAVING 
+  COUNT(*) > 10
+ORDER BY 
+  assumed_role,
+  operation_count DESC
+LIMIT 20
+
+
+Select *
+FROM 
+  thanosanalysis
+ORDER BY request_datetime
+DESC limit 20;
+      
+      
