@@ -1,0 +1,144 @@
+#### Find people in Famly institution 
+SELECT 
+  l.email,
+  r2.title
+FROM
+  famly.famly_security2_domain_model_roleassignment r
+JOIN
+  famly.famly_security_domain_model_login l ON l.loginid = r.loginid 
+JOIN
+  famly.famly_security2_domain_model_role r2 ON r.roleid = r.roleid
+WHERE r.targetid = '3aba2e51-7848-49e3-9350-c40c8d78db55' AND 
+    r.deletedat IS NULL AND r.roleid = r2.roleid
+ORDER BY l.email;
+
+
+
+
+
+INSERT INTO famly.famly_daycare_institution_domain_model_organizationperson (organizationpersonid,organizationid,firstname,middlename,lastname,loginid,email,createdat,deletedat,anonymized) VALUES
+	 ('118a7e68-f14f-480a-ba63-a044da33c570','3aba2e51-7848-49e3-9350-c40c8d78db55','Jan-Erik','','Revsbech','297c1815-31b8-4422-9f60-267fd5ee4485','jer@famly.co',NOW(),NULL,0);
+
+
+
+INSERT INTO famly.famly_security2_domain_model_roleassignment (roleassignmentid,loginid,roleid,targetid,logincreatedaspartofassignment,createdat,deletedat,createdby,deletedby,lastUpdatedAt) VALUES
+	 ('03fc2e19-484e-11ec-9e5b-069f1a1590f0','297c1815-31b8-4422-9f60-267fd5ee4485','35bfc912-7d3c-44af-80d7-b4283bfb0ad4','3aba2e51-7848-49e3-9350-c40c8d78db55',0,NOW(),NULL,'b1a6d6f6-554b-472d-ab59-827014d0b30c','',NOW());
+
+INSERT INTO famly.famly_security2_domain_model_roleassignment (roleassignmentid,loginid,roleid,targetid,logincreatedaspartofassignment,createdat,deletedat,createdby,deletedby,lastUpdatedAt) VALUES
+	 ('146768d5-38e9-42fe-ae2c-02d652ee47cc','297c1815-31b8-4422-9f60-267fd5ee4485','b67710f1-689e-47d9-a7ba-a6440d9668cd','3aba2e51-7848-49e3-9350-c40c8d78db55',1,NOW(),NULL,'b1a6d6f6-554b-472d-ab59-827014d0b30c','',NOW());
+
+
+
+
+
+
+SELECT
+    loginid,
+    hashedpassword,  -- Provide an alias for the NULL value
+    firstname,
+    middlename,
+    lastname,
+    birthday,
+    email,
+    phone,
+    NOW() AS createdtime,
+    NOW() AS lastupdatedat,
+    workphone,
+    street,
+    zip,
+    city,
+    locale,
+    homephone,
+    timeZone,
+    deletedAt
+FROM
+    famly.famly_security_domain_model_login
+WHERE
+  email IN ('bret@famly.co', 'pak@famly.co', 'ag@famly.co', 'ki@famly.co', 'hmr@famly.dk', 'al@famly.dk', 'jer@famly.co', 'mcn@famly.co', 'sb@famly.co', 'lg@famly.co', 'mw@famly.co', 'pk@famly.co', 'jry@famly.co', 'ch@famly.co')
+    AND deletedAt IS NULL;
+
+
+OR
+
+SELECT   CONCAT(
+    'INSERT INTO famly.famly_security_domain_model_login (loginid, hashedpassword, firstname, middlename, lastname, birthday, email, phone, createdtime, lastUpdatedAt, workphone, street, zip, city, locale, homephone, timeZone, deletedAt) VALUES (',
+    "'", IFNULL(loginid, 'NULL'), "', '", IFNULL(hashedpassword, 'NULL'), "', '", IFNULL(firstname, 'NULL'), "', '", IFNULL(middlename, 'NULL'), "', '", IFNULL(lastname, 'NULL'), "', '", IFNULL(birthday, 'NULL'), "', '", IFNULL(email, 'NULL'), "', '", IFNULL(phone, 'NULL'), "', NOW(), NOW(), '", IFNULL(workphone, 'NULL'), "', '", IFNULL(street, 'NULL'), "', '", IFNULL(zip, 'NULL'), "', '", IFNULL(city, 'NULL'), "', '", IFNULL(locale, 'NULL'), "', '", IFNULL(homephone, 'NULL'), "', '", IFNULL(timeZone, 'NULL'), "', '", IFNULL(deletedAt, 'NULL'), "'",
+    ');'
+  ) AS insert_statement
+FROM 
+  famly.famly_security_domain_model_login
+WHERE 
+  email IN ('bret@famly.co', 'pak@famly.co', 'ag@famly.co', 'ki@famly.co', 'hmr@famly.dk', 'al@famly.dk', 'jer@famly.co', 'mcn@famly.co', 'sb@famly.co', 'lg@famly.co', 'mw@famly.co', 'pk@famly.co', 'jry@famly.co', 'ch@famly.co');
+
+
+INSERT INTO famly.famly_security_domain_model_login (loginid,hashedpassword,firstname,middlename,lastname,birthday,email,phone,createdtime,lastupdatedat,workphone,street,zip,city,locale,homephone,timeZone,deletedAt) VALUES
+	 ('851ed138-f66e-4c9f-9805-40c31990d6ca','bcrypt=>$2a$12$NBEvR2.wBlzuinCfzNPnvuxFek7G2zAEp9AOxXh6AyeF6bn6WfjnC','Alan','','Gibson',NULL,'ag@famly.co','',NOW(),NOW(),'','','','','en_GB','','Europe/London',NULL),
+	 ('b1a6d6f6-554b-472d-ab59-827014d0b30c','bcrypt=>$2a$12$kic4gfws7g.t7V1FZ56GquAKschjVCvZSeuH9Y60Pxi4m1u6pQHRu','Christian','','Harrington','1989-06-05 00:00:00','ch@famly.co','61 46 96 14',NOW(),NOW(),'','Roarsvej 31','3650','Ølstykke','en_US','','Europe/Copenhagen',NULL),
+	 ('6001211b-41da-192f-ab2e-56c91acce406','bcrypt=>$2a$12$0Zu69ZpZs05yy/k1dHedqejVhV8cIStDzXJCm60oy3ezyfxKXoBB.','Henrik','Møller','Rasmussen',NULL,'hmr@famly.dk','',NOW(),NOW(),'','','','','da_DK','','Europe/Copenhagen',NULL),
+	 ('297c1815-31b8-4422-9f60-267fd5ee4485','bcrypt=>$2a$12$jzj1z7/Ofm1wzNQ5.jTWN.gPQSh1RnxeS0FsZKlUYeNIYD76VvfBe','Jan-Erik','','Revsbech',NULL,'jer@famly.co','',NOW(),NOW(),'','','','','en_GB','','Europe/Copenhagen',NULL),
+	 ('500c1895-2d76-45a4-8903-f0c7a67695e9','bcrypt=>$2a$12$cKdzkh8qqn3pRl8aRt7pTef4QFGZ0PiqmkqFfrPQAnx2YFGPMD44O','Jry','','Famly',NULL,'jry@famly.co','',NOW(),NOW(),'','','','','en_GB','','Europe/Copenhagen',NULL),
+	 ('65f13eb7-9524-47af-bdb6-ea7c0e1a072d','bcrypt=>$2a$12$T6ptpDJA3K2Qm5iwJhccnO3YsX4LgrsSRbjbJQNr62we1/u2UlXme','Kim','','',NULL,'ki@famly.co','',NOW(),NOW(),'','','','','en_GB','',NULL,NULL),
+	 ('e11c6c82-b93f-41fb-84c5-27b840d8d147','bcrypt=>$2a$12$5HmG7VttC8V2SMaNeOIxO.eJj/fq5RUKV06ZJZLe57ZfHidHeLSWC','Leigh','','Gamon',NULL,'lg@famly.co','',NOW(),NOW(),'','','','','en_GB','','Europe/Copenhagen',NULL),
+	 ('cba836d3-0ad1-4066-92aa-1d4005427df7','bcrypt=>$2a$12$sa28KHMhXND7w65MRMNLeeEeJWvXgbHkA3s82VkDziN3Wpe7h5Iw.','Maria-Clara','','Neu',NULL,'mcn@famly.co','',NOW(),NOW(),'','','','','en_GB','','Europe/Copenhagen',NULL),
+	 ('51fa771f-9a18-45f0-88d4-1def362335ec','bcrypt=>$2a$12$pZniYNSC9Jo1N4z/.un1KescgxrmkpfqU6Y14Wq/rNzHwfF5RMIpq','Matthew','','W.',NULL,'mw@famly.co','',NOW(),NOW(),'','','','','en_GB','','Europe/Copenhagen',NULL),
+	 ('573906fe-d09e-426f-80e7-e3669bda13ca','bcrypt=>$2a$12$Kb0dN97CvIlXRQWt6xqJGexpnKO3UP.2iuUJd29jG4vSEvzGHjXpC','Alex','','Karkalatos',NULL,'pak@famly.co','',NOW(),NOW(),'','','','','da_DK','','Europe/Copenhagen',NULL),
+	 ('52ab8944-05b1-4169-82f9-a83650be0a88','bcrypt=>$2a$12$y0MHuACWXOXRZ0aC76E5lebIxYprja.relHavxagnm2aZUUiOgDrO','Sara','','Brunvoll',NULL,'sb@famly.co','',NOW(),NOW(),'','','','','en_GB','','Europe/London',NULL);
+
+SELECT UUID(), l.organizationid, l.firstname, l.middlename, l.lastname, l.loginid, l.email, NOW() as craetedat, l.deletedat, l.anonymized
+FROM famly.famly_security_domain_model_login o
+JOIN  famly.famly_daycare_institution_domain_model_organizationperson l ON l.loginid = o.loginid 
+WHERE
+  o.email IN ('bret@famly.co', 'pak@famly.co', 'ag@famly.co', 'ki@famly.co', 'hmr@famly.dk', 'al@famly.dk', 'jer@famly.co', 'mcn@famly.co', 'sb@famly.co', 'lg@famly.co', 'mw@famly.co', 'pk@famly.co', 'jry@famly.co', 'ch@famly.co')
+    AND l.deletedAt IS NULL;
+
+OR
+
+SELECT CONCAT(
+    'INSERT INTO famly.famly_daycare_institution_domain_model_organizationperson (organizationpersonid, organizationid, firstname, middlename, lastname, loginid, email, createdat, deletedat, anonymized) VALUES ',
+    GROUP_CONCAT(CONCAT(
+        "('",UUID(), "', '", IFNULL(o.organizationid, 'NULL'), "', '", IFNULL(l.firstname, 'NULL'), "', '", IFNULL(l.middlename, 'NULL'), "', '", IFNULL(l.lastname, 'NULL'), "', '", l.loginid, "', '", IFNULL(l.email, 'NULL'), "', NOW(), 'NULL', '0')"
+    ) SEPARATOR ', '),
+    ';'
+) AS insert_statement
+FROM famly.famly_security_domain_model_login l
+JOIN famly.famly_daycare_institution_domain_model_organizationperson o ON l.loginid = o.loginid 
+WHERE l.email IN ('bret@famly.co');
+
+
+INSERT INTO famly.famly_daycare_institution_domain_model_organizationperson (organizationpersonid, organizationid, firstname, middlename, lastname, loginid, email, createdat, deletedat, anonymized) VALUES ('81c95e54-7a53-11ef-8daa-06ffb9f32b6f', '2758ee87-9249-4837-9b0f-6d385434203b', 'Bret', '', 'Terb', '122b1118-6d94-4052-ab04-50d4e2a29abb', 'bret@famly.co', NOW(), 'NULL', '0');
+
+
+
+
+
+
+SELECT UUID() AS roleassignmentid, loginid, roleid, targetid, logincreatedaspartofassignment, NOW() AS createdat, deletedat, createdby, deletedby, NOW() AS lastUpdatedAt
+FROM famly.famly_security2_domain_model_roleassignment ra
+WHERE ra.targetid = '3aba2e51-7848-49e3-9350-c40c8d78db55'
+  AND ra.loginid IN (
+      SELECT l.loginid
+      FROM famly.famly_security_domain_model_login l
+      WHERE l.email IN ('bret@famly.co', 'pak@famly.co', 'ag@famly.co', 'ki@famly.co', 'hmr@famly.dk', 'al@famly.dk', 'jer@famly.co', 'mcn@famly.co', 'sb@famly.co', 'lg@famly.co', 'mw@famly.co', 'pk@famly.co', 'jry@famly.co', 'ch@famly.co')
+   )
+  AND ra.deletedAt IS NULL;
+
+
+OR
+
+
+ SELECT CONCAT(
+    'INSERT INTO famly.famly_security2_domain_model_roleassignment (roleassignmentid, loginid, roleid, targetid, logincreatedaspartofassignment, createdat, deletedat, createdby, deletedby, lastUpdatedAt) VALUES ',
+    GROUP_CONCAT(CONCAT(
+        "('", UUID(), "', '", ra.loginid, "', '", ra.roleid, "', '", ra.targetid, "', 0, NOW(), NULL, NULL, NULL, NOW())"
+    ) SEPARATOR ', '),
+    ';'
+) AS insert_statement
+FROM famly.famly_security2_domain_model_roleassignment ra
+WHERE ra.targetid = '3aba2e51-7848-49e3-9350-c40c8d78db55'
+  AND ra.loginid IN (
+      SELECT l.loginid
+      FROM famly.famly_security_domain_model_login l
+      WHERE l.email IN ('admin@famly.co')
+  );
+
+INSERT INTO famly.famly_security2_domain_model_roleassignment (roleassignmentid, loginid, roleid, targetid, logincreatedaspartofassignment, createdat, deletedat, createdby, deletedby, lastUpdatedAt) VALUES ('4c173987-7a57-11ef-8daa-06ffb9f32b6f', '48def999-8691-46d1-a4c3-31b06de4f92f', 'b67710f1-689e-47d9-a7ba-a6440d9668cd', '3aba2e51-7848-49e3-9350-c40c8d78db55', 0, NOW(), NULL, NULL, NULL, NOW()), ('4c1739da-7a57-11ef-8daa-06ffb9f32b6f', '48def999-8691-46d1-a4c3-31b06de4f92f', '35bfc912-7d3c-44af-80d7-b4283bfb0ad4', '3aba2e51-7848-49e3-9350-c40c8d78db55', 0, NOW(), NULL, NULL, NULL, NOW());
